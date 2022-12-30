@@ -1,18 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5d72d69.css",
-    "main.js": "/static/js/main.959b6c07.js",
+    "main.css": "/static/css/main.0891ead7.css",
+    "main.js": "/static/js/main.7ab13824.js",
     "static/js/787.1f73c1e6.chunk.js": "/static/js/787.1f73c1e6.chunk.js",
+    "static/media/whiteline.png": "/static/media/whiteline.da10de576621899c22cb.png",
+    "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
     "static/media/react.png": "/static/media/react.dceaa1723fa4b0f19ff5.png",
+    "static/media/github.png": "/static/media/github.f559c21dc5f43a15f86b.png",
+    "static/media/git.png": "/static/media/git.b5723d2fd09355d535e5.png",
+    "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
     "static/media/Css.png": "/static/media/Css.e31e30fbd381c3f058df.png",
     "static/media/Html.png": "/static/media/Html.5139eb66b02855a1c137.png",
+    "static/media/chakra.png": "/static/media/chakra.0719bee98cb0c0b83aeb.png",
+    "static/media/express.png": "/static/media/express.551b076d3a202df33a0c.png",
+    "static/media/redux-seeklogo.com.svg": "/static/media/redux-seeklogo.com.a95675408ae17c456965e2f09376c31a.svg",
+    "static/media/next-js-seeklogo.com.svg": "/static/media/next-js-seeklogo.com.b0a63a12331e68f98f0080c0751b309d.svg",
+    "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "index.html": "/index.html",
-    "main.b5d72d69.css.map": "/static/css/main.b5d72d69.css.map",
-    "main.959b6c07.js.map": "/static/js/main.959b6c07.js.map",
+    "main.0891ead7.css.map": "/static/css/main.0891ead7.css.map",
+    "main.7ab13824.js.map": "/static/js/main.7ab13824.js.map",
     "787.1f73c1e6.chunk.js.map": "/static/js/787.1f73c1e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5d72d69.css",
-    "static/js/main.959b6c07.js"
+    "static/css/main.0891ead7.css",
+    "static/js/main.7ab13824.js"
   ]
 }
