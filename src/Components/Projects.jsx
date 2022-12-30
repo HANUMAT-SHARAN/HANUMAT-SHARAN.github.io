@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <section  id="projects"  style={{backgroundColor:"yellow",height:"500px"}}>
+    <section  id="projects"  style={{height:"500px"}}>
       <Heading>Hello</Heading>
     </section>
   )

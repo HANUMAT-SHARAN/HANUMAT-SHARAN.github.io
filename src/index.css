@@ -4,11 +4,13 @@ body {
  
   -webkit-text-size-adjust: 100%;
   font-family: 'Poppins', sans-serif;
+  background-image: url(../src/Components/Images/whiteline.png);
   
 }
 :root{
   --color-font:#2d5afe ;
-  --color-bg:var(--color-font)
+  --color-bg:var(--color-font);
+  --color-second:#ff0000;
 }
 
 
@@ -21,7 +23,7 @@ button {
   padding: 0.6em 0.5em;
   font-size: 1.3em;
   font-weight: bold;
-  color:red;
+  color:#ff0000;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: 500;
   font-family: inherit;

@@ -40,4 +40,18 @@ nav a.active{
     border-radius: 40px;
     backdrop-filter: blur(27px);
   }
+  nav a {
+    background: transparent;
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.1rem;
+  }
+  nav a:hover{
+    background:var(--color-bg)
+    
+  }
+  nav a.active{
+    background:var(--color-bg)
+  }
 }
