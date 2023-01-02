@@ -1,4 +1,4 @@
-import { SimpleGrid, Grid, Image, Box, Heading, Flex } from "@chakra-ui/react";
+import { SimpleGrid, Grid, Image, Box, Heading, Flex,ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import html from "../Components/Images/Html.png";
 import css from "../Components/Images/Css.png";
@@ -62,7 +62,7 @@ const Skills = () => {
       <Flex
         id="tech"
         data-aos="fade-down-right"
-        data-aos-duration="4000"
+        data-aos-duration="2000"
         data-aos-delay="300"
         margin={"auto"}
         justifyContent={"space-around"}
@@ -73,7 +73,7 @@ const Skills = () => {
       <Flex
            data-aos="zoom-in-down"
     
-        data-aos-duration="4000"
+        data-aos-duration="2000"
         data-aos-offset="100"
         m="auto"
         w={400}
@@ -105,7 +105,7 @@ const Skills = () => {
               <div
                 data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
-                data-aos-duration="4000"
+                data-aos-duration="2000"
                 data-aos-offset="100"
               >
                 {" "}
@@ -156,6 +156,7 @@ const Skills = () => {
       <div id="skillsdiv">
         {toolsarr.map((el) => (
           <div
+          
           data-aos="zoom-in-down"
             
             data-aos-duration="2000"
@@ -167,11 +168,14 @@ const Skills = () => {
           </div>
         ))}
       </div>
-      <SimpleGrid columns={[1, 2, 3]}>
+      
+        <SimpleGrid columns={[1, 2, 3]}>
         <div>dfdfd</div>
         <div>dfd</div>
         <div>dfdf</div>
       </SimpleGrid>
+     
+     
     </section>
   );
 };

@@ -3,14 +3,17 @@
     #skillsdiv {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 10px;
-     
-        border-radius: 20px;
+        gap: 30px;
         margin: auto;
+       
+        width:100%;
+        border-radius: 20px;
+       
         align-self: center;
+        position: relative;
       }
       #skillsdiv div {
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(73, 73, 73, 0.35) 0px 5px 15px;
         padding: 20px;
         text-align: center;
         border-radius: 15px;
@@ -23,6 +26,7 @@
         width: 100px;
       }
       #tech{
+       
         width: 450px;
         
        
@@ -44,7 +48,9 @@
     #skillsdiv {
     display: grid;
      grid-template-columns: repeat(3, 1fr); 
-      gap: 10px;
+      gap: 20px;
+      width:100%;
+      
       margin: auto;
 
     }
