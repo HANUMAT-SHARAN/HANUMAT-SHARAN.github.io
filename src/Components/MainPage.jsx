@@ -1,5 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
+
 import Navbar from "../Components/Navbar";
 import Home from "../Components/Home";
 import Skills from "../Components/Skills";
@@ -13,7 +14,7 @@ const MainPage = () => {
     <div>
         <TopNavbar/>
       <Navbar />
-
+     
       <Home />
       <About />
       <Skills />

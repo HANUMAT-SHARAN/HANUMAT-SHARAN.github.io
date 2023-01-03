@@ -1,6 +1,7 @@
 import React from "react";
 import { Image, SimpleGrid,Flex, Box } from "@chakra-ui/react";
 import "../Components/nav.css";
+import NavDrawer from "./NavDrawer";
 
 const Navbar = () => {
 
@@ -49,7 +50,8 @@ const[activenav,setActiveNav]=React.useState("#home")
           src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_Message-64.png"
         />
       </a>
-   
+    
+ 
     </nav>
   );
 };

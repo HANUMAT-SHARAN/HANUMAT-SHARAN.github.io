@@ -5,7 +5,7 @@ body {
  
   
   font-family: 'Poppins', sans-serif;
-  background-image: url(../src/Components/Images/WhiteChips\ \(1\).png);
+ 
   
 }
 :root{
@@ -13,6 +13,7 @@ body {
   --color-bg:var(--color-font);
   --color-second:#ff0000;
   --color-text:white;
+  --color-heading:#242d49;
 }
 ::-webkit-scrollbar{
   width:7px;

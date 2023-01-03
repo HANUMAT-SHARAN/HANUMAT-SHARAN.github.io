@@ -1,44 +1,38 @@
 #social {
-
   align-items: center;
-  
-position: fixed; 
- width: 100%;
+
+  position: fixed;
+  width: 100%;
 
   z-index: 2;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 17rem;
-
+  left: 48%;
+  transform: translateX(-49%);
+  bottom: 5rem;
 }
 #social ul {
-
   display: flex;
 
+  justify-content: space-between;
 
-justify-content: space-between;
-
+  margin-right: 20px;
 }
 #social ul li {
   position: relative;
   list-style: none;
-  width: 80px;
-  height: 80px;
+  padding: 5px;
+
   display: flex;
-  justify-content: center;
-  
-  align-items: center;
+
   cursor: pointer;
 }
 #social ul li:hover {
   z-index: 10000;
   transform: scale(0.75);
-
 }
 #social ul li::before {
   content: "";
   position: absolute;
-  inset: 30px;
+  inset: 0px;
   transition: 0.5s;
 }
 
@@ -46,20 +40,19 @@ justify-content: space-between;
   content: "";
   position: absolute;
   inset: 0;
- 
- 
 }
 #social ul li:hover::before {
-    inset:0px;
-    background-color: var(--color-text); 
-    transform: rotate(360deg);
-   box-shadow: 0 0 0 10px var(--color-bg), 0 0 0 20px rgb(82, 207, 10), 0 0 0 22px rgb(255, 0, 0);
+  inset: 0px;
+  background-color: var(--color-text);
+  transform: rotate(370deg);
+  box-shadow: 0 0 0 10px rgb(0, 247, 255), 0 0 0 20px rgb(0, 102, 255),
+    0 0 0 22px rgb(255, 0, 0);
 }
 
 #social ul li a {
   position: relative;
   text-decoration: none;
-  color:;
+
   z-index: 10;
   font-size: 3rem;
   transition: 0.5s;
@@ -67,5 +60,24 @@ justify-content: space-between;
 }
 #social ul li:hover a {
   font-size: 4rem;
+}
+@media all and (min-width: 320px) and (max-width: 667px) {
+  #social {
+    align-items: center;
+  
+    position: fixed;
+    width: 110%;
+  
+    z-index: 2;
+    left: 48%;
+    transform: translateX(-49%);
+    bottom: 10rem;
+  }
+  #social ul {
+    display: flex;
+  
+    justify-content: space-between;
+  
  
+  }
 }
