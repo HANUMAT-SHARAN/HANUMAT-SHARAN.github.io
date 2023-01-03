@@ -7,6 +7,7 @@ import Projects from "./Projects";
 
 import About from "./About";
 import TopNavbar from "./TopNavbar";
+import Social from "./Social";
 const MainPage = () => {
   return (
     <div>
@@ -14,9 +15,11 @@ const MainPage = () => {
       <Navbar />
 
       <Home />
+      <About />
       <Skills />
       <Projects />
-      <About />
+      <Social/>
+    
     </div>
   );
 };

@@ -12,9 +12,10 @@ body {
   --color-font:#2d5afe ;
   --color-bg:var(--color-font);
   --color-second:#ff0000;
+  --color-text:white;
 }
 ::-webkit-scrollbar{
-  width:12px;
+  width:7px;
  
 }
 ::-webkit-scrollbar-track{

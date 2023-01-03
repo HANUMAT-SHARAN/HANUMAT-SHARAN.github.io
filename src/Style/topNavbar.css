@@ -4,24 +4,26 @@
   display: flex;
   justify-content: space-between;
   background-color: rgb(255, 255, 255);
-  padding: 0.7rem 1.7rem;
+  padding: 5px 0px 0px 0px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   top: 0;
-  width: 96%;
+  width: 100%;
   z-index: 1;
   gap: 0px;
   border-radius: 20px;
+  font-size: 19px;
 }
 
 #navel {
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
+
 }
 #navel > div {
   margin-left: 30px;
-  overflow: hidden;
+  width:40%;
+
 }
 
 #navel a {
@@ -29,17 +31,22 @@
   text-decoration: none;
 }
 #navel a :hover{
-    color:green;
+    
     cursor:grab;
+
    
 }
+
 .activemain{
-    color:var(--color-bg);
+    color:var(--color-text);
+    padding: 3px 15px 3px 15px;
+    background-color: var(--color-bg);
+    border-radius: 2rem;
 
     
 }
 @media all and (min-width: 320px) and (max-width: 667px) {
-    #topnav{
+    #navel{
         display: none;
     }
 }
