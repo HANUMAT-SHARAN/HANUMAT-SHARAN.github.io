@@ -19,7 +19,7 @@ const TopNavbar = () => {
 
   return (
     <div>
-      <div id="topnav">
+      <div style={{height:"10vh"}} id="topnav">
         <div style={{ marginLeft: "40px", align: "center", padding: "4px" }}>
           <img width={"60px"} src={logo} alt="" />
         </div>

@@ -1,0 +1,49 @@
+.card {
+  background-color: grey;
+
+
+  color: red;
+  border-radius: 3rem;
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+
+  position: absolute;
+ 
+}
+/* #c{
+width:80%;
+margin:auto;
+} */
+
+
+.rgb::after {
+  content: "";
+  background: linear-gradient(
+      45deg,
+      red 0%,
+      yellow 10%,
+      orange 20%,
+      blue 30%,
+      purple 40%,
+      rgb(253, 1, 1) 50%
+    )
+    repeat 0% 0%/ 300% 100%;
+  position: absolute;
+  inset: -3px;
+  border-radius: 1rem;
+  filter: blur(8px);
+ z-index: -1;
+  animation :rgb 6s linear infinite;
+}
+@keyframes rgb {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

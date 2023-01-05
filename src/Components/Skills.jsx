@@ -14,10 +14,11 @@ import chakra from "../Components/Images/chakra.png";
 import express from "../Components/Images/express.png";
 import vs from "../Components/Images/vscode.png";
 import Button from "./Button";
-
+import Tilt from "react-vanilla-tilt"
 import Aos from "aos";
 import "../Style/skill.css";
 import { useEffect } from "react";
+import ProjectCard from "./ProjectCard";
 
 const Skills = () => {
   const [tech, setTech] = React.useState("all");
@@ -58,7 +59,7 @@ const Skills = () => {
     { img: git, name: "Git" },
   ];
   return (
-    <section id="skills">
+    <section id="skills"  >
       <Flex
         id="tech"
         data-aos="fade-down-right"
@@ -70,7 +71,7 @@ const Skills = () => {
         <h1>My </h1> <h1 style={{ color: "var(--color-font)" }}>Techinal </h1>
         <h1 style={{ color: "var(--color-second)" }}> Skills</h1>
       </Flex>
-      <Flex
+      <Flex id="skillsButton"
            data-aos="zoom-in-down"
     
         data-aos-duration="2000"
@@ -169,13 +170,9 @@ const Skills = () => {
         ))}
       </div>
       
-        <SimpleGrid columns={[1, 2, 3]}>
-        <div>dfdfd</div>
-        <div>dfd</div>
-        <div>dfdf</div>
-      </SimpleGrid>
+       
      
-     
+   
     </section>
   );
 };

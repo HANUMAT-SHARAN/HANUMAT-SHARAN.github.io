@@ -1,7 +1,7 @@
 nav {
   display: flex;
   position: fixed;
-  background-color: rgba(68, 39, 230, 0.3);
+  background-color: rgba(91, 6, 112, 0.3);
   padding: 0.7rem 1.7rem;
   z-index: 2;
   left: 50%;
@@ -21,17 +21,18 @@ nav a {
   font-size: 1.1rem;
 }
 nav a:hover{
-  background:rgba(30, 85, 204, 0.3);
+  background-color: rgba(107, 107, 107, 0.3);
   
 }
 nav a.active{
-  background:rgba(4, 0, 255, 0.3)
+  background-color: rgba(107, 107, 107, 0.3);
+  
 }
 @media all and (min-width: 320px) and (max-width: 767px){
   nav {
     display: flex;
     position: fixed;
-    background-color:rgba(68, 39, 230, 0.3);
+    background-color: rgba(107, 107, 107, 0.3);
     padding: 0.7rem 1.7rem;
     z-index: 20;
     left: 50%;
@@ -49,10 +50,11 @@ nav a.active{
     font-size: 1.1rem;
   }
   nav a:hover{
-    background:rgba(30, 85, 204, 0.3);
+    background-color: rgba(107, 107, 107, 0.3);
     
   }
   nav a.active{
-    background:rgba(4, 0, 255, 0.3)
+    background-color: rgba(107, 107, 107, 0.3);
+  
   }
 }

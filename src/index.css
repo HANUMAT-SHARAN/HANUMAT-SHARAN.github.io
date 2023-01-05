@@ -9,9 +9,9 @@ body {
   
 }
 :root{
-  --color-font:#2d5afe ;
+  --color-font:#850db4 ;
   --color-bg:var(--color-font);
-  --color-second:#ff0000;
+  --color-second:var(--color-font);
   --color-text:white;
   --color-heading:#242d49;
 }
@@ -35,7 +35,7 @@ button {
   padding: 0.6em 0.5em;
   font-size: 1.3em;
   font-weight: bold;
-  color:#ff0000;
+  color:var(--color-heading);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   font-weight: 500;
   font-family: inherit;
@@ -45,6 +45,13 @@ button {
 }
 button:hover {
   border-color: #646cff;
-  background-color: #2d5afe;
+  background-color: var(--color-bg);
   color:white
+}
+
+section{
+ 
+  margin:0 auto;
+  /* margin-top:100px; */
+  padding-top:70px;
 }
