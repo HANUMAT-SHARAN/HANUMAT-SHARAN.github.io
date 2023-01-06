@@ -27,7 +27,7 @@ body {
 }
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 button {
   border-radius: 8px;

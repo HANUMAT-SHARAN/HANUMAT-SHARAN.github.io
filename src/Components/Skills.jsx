@@ -58,8 +58,14 @@ const Skills = () => {
     { img: chakra, name: "Chakra UI" },
     { img: git, name: "Git" },
   ];
+
+  
+  
   return (
+
+    
     <section id="skills"  >
+
       <Flex
         id="tech"
         data-aos="fade-down-right"
@@ -99,6 +105,7 @@ const Skills = () => {
         >
           BACKEND
         </button>
+
       </Flex>
       <div id="skillsdiv">
         {tech === "all"
