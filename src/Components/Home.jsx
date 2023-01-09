@@ -3,6 +3,7 @@ import "../Style/home.css";
 import profile from "../Components/Images/hanumat.png";
 import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
+import my from "../Components/Images/hanumat_logo.png"
 import Aos from "aos";
 
 const Home = () => {
@@ -19,7 +20,7 @@ const Home = () => {
         id="profile"
       >
         {/* image */}
-        <img src={profile} alt="" />
+        <img src={my} alt="" />
       </div>
       <div
         data-aos="fade-down-right"
