@@ -1,6 +1,21 @@
-@media all and (min-width: 770px) and (max-width: 2000px) {
+#tech {
+  display: flex;
+ justify-content: space-evenly;
+text-align: center;
 
-  
+  margin: auto;
+  border-radius: 15px;
+  font-size: 20px;
+ 
+}
+#tech h1 {
+
+
+
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media all and (min-width: 770px) and (max-width: 2000px) {
   #skillsdiv {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,12 +42,7 @@
   #skillsdiv img {
     width: 100px;
   }
-  #tech {
-    width: 450px;
-    margin:auto;
-    border-radius: 15px;
-    font-size: 30px;
-  }
+ 
   #tools {
     width: 250px;
     font-size: 30px;
@@ -65,11 +75,26 @@
   #skillsdiv div:hover {
     background-color: rgb(255, 213, 255);
   }
-  #tech {
-    margin-left:-7%;
-    width: 360px;
+  #tech h1 {
+
+    font-size: 45px;
+    margin-left: -10%;
+     text-align: center;
+     margin-bottom: 30px;
+   }
+  /* #tech {
+    border:1px solid red;
+    align-items: center;
+  
+    width: 300px;
     font-size: 22px;
   }
+  #tech h1 {
+    margin: auto;
+  
+    margin-left: 4%;
+    margin-bottom: 30px;
+  } */
   #tools {
     width: 200px;
     font-size: 25px;

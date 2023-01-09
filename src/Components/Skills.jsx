@@ -67,18 +67,18 @@ const Skills = () => {
     
     <section id="skills"  >
 
-      <div
+      <Flex
          id="tech"
-       
         data-aos="fade-down-right"
         data-aos-duration="2000"
         data-aos-delay="300"
       
      
       >
-        <h1 style={{ color: "var(--color-font)" }}>Technical Skills </h1>
+        <h1 style={{ color: "var(--color-font)" }}>Technical Skills  </h1>
+        {/* <h1 style={{ color: "var(--color-font)" }}> Skills </h1> */}
       
-      </div>
+      </Flex>
       <Flex id="skillsButton"
            data-aos="zoom-in-down"
     

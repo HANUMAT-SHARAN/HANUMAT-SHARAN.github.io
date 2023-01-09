@@ -1,11 +1,4 @@
-.card{
-  display: flex;
-  width:80%;
-  margin: auto;
 
-  border: 3px solid var(--color-bg);
-
-}
 .slick-arrow.slick-prev,
 .slick-arrow.slick-next {
  
@@ -25,14 +18,32 @@ dots {
 }
 
 .sliderdiv{
-  padding:20px
+  border:1px solid;
+ width:100%;
+ display: flex;
 
+ 
 }
 #tech {
   width: 450px;
  text-align: center;
   border-radius: 15px;
   font-size: 30px;
+}
+
+.card{
+display: grid;
+   width:85%;
+  margin: auto;
+  grid-template-columns: repeat(2,1fr);
+
+  border: 3px solid var(--color-bg);
+  margin-top:40px;
+
+}
+.card div{
+
+  width:100%;
 }
 
 
