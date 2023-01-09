@@ -3,7 +3,7 @@
   
   #skillsdiv {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin: auto;
 
@@ -29,7 +29,7 @@
   }
   #tech {
     width: 450px;
-
+    margin:auto;
     border-radius: 15px;
     font-size: 30px;
   }
@@ -66,8 +66,9 @@
     background-color: rgb(255, 213, 255);
   }
   #tech {
+    margin-left:-7%;
     width: 360px;
-    font-size: 25px;
+    font-size: 22px;
   }
   #tools {
     width: 200px;

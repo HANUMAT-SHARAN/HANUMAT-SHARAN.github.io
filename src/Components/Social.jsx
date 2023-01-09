@@ -2,7 +2,7 @@ import React from "react";
 import "../Style/social.css";
 const Social = () => {
   return (
-    <div id="social">
+    <div id="social" >
       <div id="git">
         {" "}
         <a href="https://github.com/HANUMAT-SHARAN">

@@ -2,24 +2,37 @@
   display: flex;
   width:80%;
   margin: auto;
-  border:1px solid red
+
+  border: 3px solid var(--color-bg);
+
 }
 .slick-arrow.slick-prev,
 .slick-arrow.slick-next {
  
-  /* height: 70px;
+  height: 40px;
   width: 20px;
-  padding-right: 20px; */
+  padding-right: 20px;
 
   border-radius: 20px;
-
+ 
   background-color: var(--color-bg);
   position: absolute;
 }
 
 dots {
   color: var(--color-bg);
+  
 }
 
+.sliderdiv{
+  padding:20px
+
+}
+#tech {
+  width: 450px;
+ text-align: center;
+  border-radius: 15px;
+  font-size: 30px;
+}
 
 

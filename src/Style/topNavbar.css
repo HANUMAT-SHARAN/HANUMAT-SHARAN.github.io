@@ -31,8 +31,14 @@
   background-color: var(--color-bg);
   
 }
-#navel a :hover {
+
+#navel a:hover {
   cursor: grab;
+  color:var(--color-bg);
+  
+ 
+  border-radius: 2rem;
+
 }
 #sidebar {
   display: none;

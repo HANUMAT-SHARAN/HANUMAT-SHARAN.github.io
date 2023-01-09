@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "../Style/card.css"
 
 
-export default function HomePageCarousel(props) {
+export default function Carousel(props) {
   var settings = {
     dots: true,
     infinite: true,
@@ -15,17 +15,16 @@ export default function HomePageCarousel(props) {
     slidesToScroll: 1,
   };
 
+  const {productarr}=props
+  console.log(productarr)
   return (
     <div
        className="sliderdiv"
       style={{ marginLeft: "80px", marginRight: "80px" ,width:"50%"}}
     >
       <Slider  {...settings} autoplay={true}>
-       <div>1</div>
-       <div>2</div>
-       <div>3</div>
-       <div>4</div>
-       <div>5</div>
+       {productarr.map((el)=> <img  src={el.img} alt="" />)}
+      
       </Slider>
     </div>
   );

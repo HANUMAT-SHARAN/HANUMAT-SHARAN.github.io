@@ -18,7 +18,7 @@ import Tilt from "react-vanilla-tilt"
 import Aos from "aos";
 import "../Style/skill.css";
 import { useEffect } from "react";
-import ProjectCard from "./ProjectCard";
+
 
 const Skills = () => {
   const [tech, setTech] = React.useState("all");
@@ -44,11 +44,12 @@ const Skills = () => {
     { img: js, name: "Java Script" },
     { img: react, name: "React" },
     { img: redux, name: "Redux" },
+    { img: next, name: "Next JS" },
   ];
   const backend = [
     { img: mongo, name: "Mongo Db" },
     { img: node, name: "Node JS" },
-    { img: next, name: "Next JS" },
+ 
     { img: express, name: "Express JS" },
   ];
   const toolsarr = [
@@ -66,17 +67,18 @@ const Skills = () => {
     
     <section id="skills"  >
 
-      <Flex
-        id="tech"
+      <div
+         id="tech"
+       
         data-aos="fade-down-right"
         data-aos-duration="2000"
         data-aos-delay="300"
-        margin={"auto"}
-        justifyContent={"space-around"}
+      
+     
       >
-        <h1>My </h1> <h1 style={{ color: "var(--color-font)" }}>Techinal </h1>
-        <h1 style={{ color: "var(--color-second)" }}> Skills</h1>
-      </Flex>
+        <h1 style={{ color: "var(--color-font)" }}>Technical Skills </h1>
+      
+      </div>
       <Flex id="skillsButton"
            data-aos="zoom-in-down"
     
@@ -159,7 +161,7 @@ const Skills = () => {
         margin={"auto"}
         justifyContent={"space-around"}
       >
-        <h1>My </h1> <h1 style={{ color: "var(--color-font)" }}>Tools </h1>
+       <h1 style={{ color: "var(--color-font)" }}>Tools </h1>
       </Flex>
       <div id="skillsdiv">
         {toolsarr.map((el) => (

@@ -64,17 +64,21 @@ const Home = () => {
             cursorStyle="|"
           />
         </h1>
-        <button
-          id="resume"
-          style={{
-            borderRadius: "1rem",
-           
-            color: "white",
-            padding: "15px 20px 15px 20px",
-          }}
-        >
-          Resume
-        </button>
+        
+         <a href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download"><button
+
+id="resume"
+style={{
+  borderRadius: "1rem",
+ 
+  color: "white",
+  padding: "15px 20px 15px 20px",
+}}
+>
+
+Resume
+
+</button></a>
       </div>
 
     

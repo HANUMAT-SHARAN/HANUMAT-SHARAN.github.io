@@ -1,34 +1,50 @@
-#social {
+#link {
   display: flex;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 
-  width: 97%;
   margin-left: 2%;
 
   position: fixed;
 
   z-index: 2;
+  color: var(--color-bg);
+  justify-content: space-between;
 
+  bottom: 5rem;
+}
+#git {
+  display: flex;
+  font-size: 2.5rem;
 
+  margin-left: 96%;
+
+  position: fixed;
+
+  z-index: 2;
+  color: var(--color-bg);
   justify-content: space-between;
   bottom: 5rem;
 }
- #social a:hover{
-color: var(--color-bg);
-font-size: 4.5rem;
-transition: 0.6s;
+#git:hover {
+  color: var(--color-bg);
+  font-size: 3rem;
+  transition: 0.5s;
 }
-
+#link:hover {
+  color: var(--color-bg);
+  font-size: 3rem;
+  transition: 0.5s;
+}
 @media all and (min-width: 320px) and (max-width: 667px) {
   #social {
     align-items: center;
 
     position: fixed;
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 
     z-index: 2;
 
     bottom: 10rem;
+    display: none;
   }
-  
 }
