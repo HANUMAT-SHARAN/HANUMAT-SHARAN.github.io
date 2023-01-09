@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc1a305a.css",
-    "main.js": "/static/js/main.467717a8.js",
+    "main.css": "/static/css/main.90230ad6.css",
+    "main.js": "/static/js/main.865ebd3a.js",
     "static/js/787.1f73c1e6.chunk.js": "/static/js/787.1f73c1e6.chunk.js",
     "static/media/hanumat.png": "/static/media/hanumat.e9a0e0f26758aaf8fbf5.png",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
@@ -16,14 +16,14 @@
     "static/media/express.png": "/static/media/express.551b076d3a202df33a0c.png",
     "static/media/redux-seeklogo.com.svg": "/static/media/redux-seeklogo.com.a95675408ae17c456965e2f09376c31a.svg",
     "static/media/next-js-seeklogo.com.svg": "/static/media/next-js-seeklogo.com.b0a63a12331e68f98f0080c0751b309d.svg",
-    "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "index.html": "/index.html",
-    "main.bc1a305a.css.map": "/static/css/main.bc1a305a.css.map",
-    "main.467717a8.js.map": "/static/js/main.467717a8.js.map",
+    "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "main.90230ad6.css.map": "/static/css/main.90230ad6.css.map",
+    "main.865ebd3a.js.map": "/static/js/main.865ebd3a.js.map",
     "787.1f73c1e6.chunk.js.map": "/static/js/787.1f73c1e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc1a305a.css",
-    "static/js/main.467717a8.js"
+    "static/css/main.90230ad6.css",
+    "static/js/main.865ebd3a.js"
   ]
 }
