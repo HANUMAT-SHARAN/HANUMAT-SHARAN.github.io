@@ -1,5 +1,9 @@
-#projects{
-    margin:auto;
-    text-align: center;
-    
+#tech {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
