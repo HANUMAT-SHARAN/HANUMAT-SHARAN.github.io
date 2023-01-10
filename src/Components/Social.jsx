@@ -9,8 +9,7 @@ const Social = () => {
           <i class="fa-brands fa-github"></i>
         </a>
       </div>
-
-      <div id="link">
+ <div id="link">
         {" "}
         <a href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
           {" "}

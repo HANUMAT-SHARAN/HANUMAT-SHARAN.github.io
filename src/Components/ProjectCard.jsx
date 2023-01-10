@@ -10,7 +10,7 @@ const ProjectCard = () => {
     nextButtonClassName: "next",
     prevButtonClassName: "next",
     pagingDotsClassName: "con",
-    speed: 100 / 2,
+    speed: 20,
   };
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -70,7 +70,7 @@ const ProjectCard = () => {
         <div id="deployed">
           <button>
             <a href="https://github.com/HANUMAT-SHARAN">
-              <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github"></i>
             </a>{" "}
             Github
           </button>
