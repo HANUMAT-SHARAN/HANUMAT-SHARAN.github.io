@@ -22,9 +22,12 @@ function ContactForm() {
       </div>
       <div id="contactform">
         <div>
-          
+        <div>
+           
+           <h1 style={{fontSize:"30px"}}>Contact</h1>
+         </div>
           <div>
-            <h1>Contact</h1>
+           
             <h4>Fill Up The Form To Contact</h4>
           </div>
           <div>
