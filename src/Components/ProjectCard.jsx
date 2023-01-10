@@ -1,31 +1,65 @@
-import React, { useState } from "react";
-
+import React, { useState, useEffect } from "react";
+import Carousel from "nuka-carousel/lib/carousel";
 import "../Style/card.css";
-
+import Aos from "aos";
 const ProjectCard = () => {
+  let defaultControlsConfig = {
+    nextButtonText: "nextf",
+    prevButtonText: "d",
+    pagingDotsContainerClassName: "con",
+    nextButtonClassName: "next",
+    prevButtonClassName: "next",
+    pagingDotsClassName: "con",
+    speed: 100/2,
+  };
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div id="card">
-      <div id="webimg">
-        <img
-          
-          style={{ borderRadius: "1rem" }}
-          src="https://i.postimg.cc/wj5CMv94/Screenshot-from-2023-01-10-01-42-55.png"
-          alt=""
-        />
-        {/* Image div */}
-      </div>
+    <div
+      data-aos="zoom-in-down"
+      data-aos-duration="2000"
+      data-aos-offset="100"
+      
+     data-aos-anchor-placement="top-center"
+      id="card"
+    >
+      <Carousel
+        defaultControlsConfig={defaultControlsConfig}
+        autoplay={true}
+        id="carousel"
+        slidesToShow={1}
+        wrapAround={true}
+      >
+        <div id="webimg">
+          <img
+            style={{ borderRadius: "1rem" }}
+            src="https://i.postimg.cc/wj5CMv94/Screenshot-from-2023-01-10-01-42-55.png"
+            alt=""
+          />
+          {/* Image div */}
+        </div>
+        <div id="webimg">
+          <img
+            style={{ borderRadius: "1rem" }}
+            src="https://i.postimg.cc/wj5CMv94/Screenshot-from-2023-01-10-01-42-55.png"
+            alt=""
+          />
+          {/* Image div */}
+        </div>
+      </Carousel>
       <div>
         <h1 id="title">RentoMojo-Clone </h1>
 
         <div id="techstack">
-          <h2>HTML  CSS  JavaScript  React  Chakra UI</h2>
+          <h2>HTML CSS JavaScript React Chakra UI</h2>
         </div>
         <div id="des">
-        <h3>
-          RentoMojo is rental platform where a person can use the products
-          according <br /> to there needs by paying rent for the products on monthly
-          Subscription based model{" "}
-        </h3>
+          <h3>
+            RentoMojo is rental platform where a person can use the products
+            according <br /> to there needs by paying rent for the products on
+            monthly Subscription based model{" "}
+          </h3>
         </div>
 
         <div id="deployed">

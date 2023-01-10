@@ -60,6 +60,13 @@ const TopNavbar = () => {
               </h4>
             </a>{" "}
           </div>
+          <div onClick={() => setCurrent("#resume")}>
+            <a href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download">
+              <h4 className={current === "#resume" ? "activemain" : null}>
+                Resume
+              </h4>
+            </a>{" "}
+          </div>
          
         </div>
         <div id="sidebar">

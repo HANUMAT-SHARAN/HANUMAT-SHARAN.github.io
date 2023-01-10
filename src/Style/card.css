@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin: auto;
-  width: 70%;
+  width: 80%;
   border: 1px solid;
   text-align: center;
   border: 3px solid var(--color-bg);
@@ -12,15 +12,31 @@
   justify-content: center;
   align-items: center;
   padding:20px;
+
   margin-bottom: 30px;
+}
+#carousel>button{
+  background-color: red;
+}
+.con{
+border-radius: 3rem;
+  display: none;
+}
+.next{
+display: none;
+
+
 }
 
 #webimg > img {
+  margin-left:4%;
   width: 90%;
+  text-align: center;
   box-shadow: var(--color-bg) 0px 8px 10px, var(--color-bg) 0px 2px 6px;
 }
+
 #title {
-  font-size: 40px;
+  font-size: 35px;
   color: var(--color-bg);
 }
 #techstack{
@@ -30,10 +46,10 @@
 #des{
 color:#7e8288;
 }
- #card:hover{
+ /* #card:hover{
   width:60%;
   transition: 0.6s;
-} 
+}  */
 #deployed {
   display: flex;
   justify-content: space-around;
@@ -49,6 +65,7 @@ color:#7e8288;
     color: var(--color-bg);
   }
   #webimg > img {
+    margin-left:0%;
     width: 100%;
   }
 }

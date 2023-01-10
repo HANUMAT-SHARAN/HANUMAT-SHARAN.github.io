@@ -16,8 +16,10 @@ const Projects = () => {
       >
         <h1 style={{color: "var(--color-font)" }}>Projects </h1>
       </div>
+      <div id="procard">
       <ProjectCard />
       <ProjectCard />
+      </div>
     </section>
   );
 };

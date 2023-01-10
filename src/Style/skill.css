@@ -15,7 +15,7 @@ text-align: center;
   text-align: center;
   margin-bottom: 5px;
 }
-@media all and (min-width: 770px) and (max-width: 2000px) {
+@media all and (min-width: 768px) and (max-width: 2000px) {
   #skillsdiv {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -77,6 +77,7 @@ text-align: center;
     text-align: center;
     border-radius: 3rem;
     border: 8px solid var(--color-bg);
+    box-shadow: var(--color-bg) 0px 10px 20px, var(--color-bg) 0px 6px 6px;
   }
   #skillsdiv div:hover {
     background-color: rgb(255, 213, 255);
@@ -102,9 +103,11 @@ text-align: center;
     margin-bottom: 30px;
   } */
   #tools {
+    margin: auto;
     width: 200px;
     font-size: 30px;
-    margin:20px
+    margin-top: 20px ;
+    margin-bottom: 20px;
   }
 }
 
