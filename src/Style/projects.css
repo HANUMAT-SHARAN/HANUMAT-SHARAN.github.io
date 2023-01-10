@@ -5,7 +5,7 @@
   margin: auto;
   border-radius: 15px;
   font-size: 35px;
-  margin-bottom: 20px;
+
 }
 #procard{
  
@@ -14,8 +14,12 @@
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
+
 @media all and (min-width: 320px) and (max-width: 1030px) {
   #procard{
     grid-template-columns: repeat(1,1fr);
   }
+}
+#projects{
+ background-color: #eef9ff;
 }

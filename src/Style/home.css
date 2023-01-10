@@ -45,82 +45,33 @@
    position:relative;
    
 }
-/* #t{
 
-
-
-
-
-
-    will-change: transform;
-    transition: all 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
-    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
-
-}
-#hanumat{
-    display: flex;
-}
-.glow{
-    width:50x;
-    height: 20px;
-
-    font-size: 24px;
-    
-    padding: 10px;
-  
- 
-    animation: animate 2s linear infinite;
-
-}
-@keyframes animate{
-    0%{
-        color:orange;
-        box-shadow: 0 4px 15px rgb(235,231,8);
-        border:2px solid  rgb(235,231,8);
-
-
+@media all and (min-width: 320px) and (max-width: 549px) {
+    #profile img{
+        width:100%;
     }
-    33.3%{
-        color:rgb(255, 60, 0);
-        box-shadow: 0 4px 15px rgb(255, 60, 0);
-        border:2px solid  rgb(255, 60, 0);
-
+    #hanumat:nth-child(2){
+        margin-top: 30px;
+        font-size: 18px;
+        color:var(--color-heading);
     }
-    66.6%{
-        color:rgb(0, 255, 255);
-        box-shadow: 0 4px 15px rgb(0, 255, 255);
-        border:2px solid  rgb(0, 255, 255);
+    #name{
+        margin-top: -15px;
+        font-size: 45px;
+        color:var(--color-heading);
+        
+        
     }
-    100%{
-        color:orange;
-        box-shadow: 0 4px 15px rgb(235,231,8);
-        border:2px solid  rgb(235,231,8);
+   
+    #home{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       margin:auto;
+       width:80%;
+       text-align: center;
     }
 }
-.glow:nth-child(1){
-    animation-delay:0s
-}
-.glow:nth-child(2){
-    animation-delay:0.2s
-}
-.glow:nth-child(3){
-    animation-delay:0.4s
-}
-.glow:nth-child(4){
-    animation-delay:0.6s
-}
-.glow:nth-child(5){
-    animation-delay:0.8s
-}
-.glow:nth-child(6){
-    animation-delay:1s
-}
-.glow:nth-child(7){
-    animation-delay:1.2s
-}
- */
-
- @media all and (min-width: 320px) and (max-width: 667px) {
+ @media all and (min-width: 550px) and (max-width: 980px) {
     #hanumat:nth-child(2){
         margin-top: 30px;
         font-size: 18px;
@@ -142,6 +93,6 @@
        text-align: center;
     }
     #profile img{
-        width:100%;
+        width:60%;
     }
   }
