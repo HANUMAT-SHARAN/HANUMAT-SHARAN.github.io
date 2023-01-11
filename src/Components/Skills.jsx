@@ -1,4 +1,12 @@
-import { SimpleGrid, Grid, Image, Box, Heading, Flex,ChakraProvider } from "@chakra-ui/react";
+import {
+  SimpleGrid,
+  Grid,
+  Image,
+  Box,
+  Heading,
+  Flex,
+  ChakraProvider,
+} from "@chakra-ui/react";
 import React from "react";
 import html from "../Components/Images/Html.png";
 import css from "../Components/Images/Css.png";
@@ -14,11 +22,10 @@ import chakra from "../Components/Images/chakra.png";
 import express from "../Components/Images/express.png";
 import vs from "../Components/Images/vscode.png";
 import Button from "./Button";
-import Tilt from "react-vanilla-tilt"
+import Tilt from "react-vanilla-tilt";
 import Aos from "aos";
 import "../Style/skill.css";
 import { useEffect } from "react";
-
 
 const Skills = () => {
   const [tech, setTech] = React.useState("all");
@@ -49,7 +56,7 @@ const Skills = () => {
   const backend = [
     { img: mongo, name: "Mongo Db" },
     { img: node, name: "Node JS" },
- 
+
     { img: express, name: "Express JS" },
   ];
   const toolsarr = [
@@ -60,28 +67,20 @@ const Skills = () => {
     { img: git, name: "Git" },
   ];
 
-  
-  
   return (
-
-    
-    <section id="skills"  >
-
+    <section id="skills">
       <Flex
-         id="tech"
+        id="tech"
         data-aos="fade-down-right"
         data-aos-duration="2000"
         data-aos-delay="300"
-      
-     
       >
-        <h1 style={{ color: "var(--color-font)" }}>Technical Skills  </h1>
+        <h1 style={{ color: "var(--color-font)" }}>Technical Skills </h1>
         {/* <h1 style={{ color: "var(--color-font)" }}> Skills </h1> */}
-      
       </Flex>
-      <Flex id="skillsButton"
-           data-aos="zoom-in-down"
-    
+      <Flex
+        id="skillsButton"
+        data-aos="zoom-in-down"
         data-aos-duration="2000"
         data-aos-offset="100"
         m="auto"
@@ -107,7 +106,6 @@ const Skills = () => {
         >
           BACKEND
         </button>
-
       </Flex>
       <div id="skillsdiv">
         {tech === "all"
@@ -120,7 +118,7 @@ const Skills = () => {
               >
                 {" "}
                 <img alt="" src={el.img} />
-                <Heading>{el.name}</Heading>
+                <h3>{el.name}</h3>
               </div>
             ))
           : null}
@@ -133,7 +131,7 @@ const Skills = () => {
                 data-aos-offset="100"
               >
                 <img alt="" src={el.img} />
-                <Heading>{el.name}</Heading>
+                <h3>{el.name}</h3>
               </div>
             ))
           : null}
@@ -147,7 +145,7 @@ const Skills = () => {
               >
                 {" "}
                 <img alt="" src={el.img} />
-                <Heading>{el.name}</Heading>
+                <h3>{el.name}</h3>
               </div>
             ))
           : null}
@@ -161,27 +159,21 @@ const Skills = () => {
         margin={"auto"}
         justifyContent={"space-around"}
       >
-       <h1 style={{ color: "var(--color-font)" }}>Tools </h1>
+        <h1 style={{ color: "var(--color-font)" }}>Tools </h1>
       </Flex>
       <div id="skillsdiv">
         {toolsarr.map((el) => (
           <div
-          
-          data-aos="zoom-in-down"
-            
+            data-aos="zoom-in-down"
             data-aos-duration="2000"
             data-aos-offset="100"
           >
             {" "}
             <img alt="" src={el.img} />
-            <Heading>{el.name}</Heading>
+            <h3>{el.name}</h3>
           </div>
         ))}
       </div>
-      
-       
-     
-   
     </section>
   );
 };

@@ -3,7 +3,7 @@ import "../Style/home.css";
 import profile from "../Components/Images/hanumat.png";
 import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
-import my from "../Components/Images/hanumat_logo.png"
+import my from "../Components/Images/hanumat_logo.png";
 import Aos from "aos";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <section id="home" >
+    <section id="home">
       <div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
@@ -65,24 +65,39 @@ const Home = () => {
             cursorStyle="|"
           />
         </h1>
+      
+       <a href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download">
+          <button
+            id="resume"
+            style={{
+              borderRadius: "1rem",
+
+              color: "white",
+              padding: "15px 20px 15px 20px",
+            }}
+          >
+            Resume
+          </button>
+        </a>
         
-         <a href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download"><button
+      
+        <div id="homesocial" >
+            <a href="https://github.com/HANUMAT-SHARAN">
+              {" "}
+              <i class="fa-brands fa-github"></i>
+            </a>
 
-id="resume"
-style={{
-  borderRadius: "1rem",
- 
-  color: "white",
-  padding: "15px 20px 15px 20px",
-}}
->
+            <a href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        <div style={{display:"flex",width:"50%",justifyContent:"space-between",flexDirection:"row"}}>
+        
 
-Resume
-
-</button></a>
+        </div>
+        
       </div>
-
-    
+      
     </section>
   );
 };

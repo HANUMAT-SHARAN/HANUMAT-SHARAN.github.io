@@ -1,13 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { Button, Input } from "@mui/material";
+import Aos from "aos";
 
 import "../Style/contact.css";
 function ContactForm() {
+  const [show,setShow]=React.useState(false)
   const [state, handleSubmit] = useForm("xyyayvwe");
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
+    
+    return <> <div
+    
+    id="formsub"
+    data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000"
+    data-aos-offset="100"
+    style={{ textAlign: "center"}}
+  >
+    <img
+      width={300}
+      src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-3d-green-check-mark-icon-png-image_6552255.png"
+      alt=""
+    />
+    <h1>Thanks for Filling Up the Form <br /> We will Contact You Soon!</h1>
+  </div> 
+  </>
   }
+
   return (
     <section id="contact">
       <div
@@ -22,12 +45,10 @@ function ContactForm() {
       </div>
       <div id="contactform">
         <div>
-        <div>
-           
-           <h1 style={{fontSize:"30px"}}>Contact</h1>
-         </div>
           <div>
-           
+            <h1 style={{ fontSize: "30px" }}>Contact</h1>
+          </div>
+          <div>
             <h4>Fill Up The Form To Contact</h4>
           </div>
           <div>
@@ -40,7 +61,7 @@ function ContactForm() {
           <div>
             <h4>
               <i class="fa-solid fa-envelope"></i>
-              {"    "}deotadayal@gmail.com
+              deotadayal@gmail.com
             </h4>
           </div>
           <div>
@@ -61,7 +82,8 @@ function ContactForm() {
             </a>
           </div>
         </div>
-        <div>
+        
+        <div >
           <form onSubmit={handleSubmit}>
             <h4>Your Name </h4>
             <input id="name" placeholder="Hanumat Sharan" name="Name" />
@@ -95,6 +117,20 @@ function ContactForm() {
             </div>
           </form>
         </div>
+        {/* <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-offset="100"
+          style={{ textAlign: "center",display:show?"block":"none" }}
+        >
+          <img
+            width={300}
+            src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-3d-green-check-mark-icon-png-image_6552255.png"
+            alt=""
+          />
+          <h1>Thanks for Filling Up the Form We will Contact You Soon!</h1>
+        </div>  */}
       </div>
     </section>
   );

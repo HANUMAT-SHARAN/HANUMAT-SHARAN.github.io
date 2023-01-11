@@ -1,18 +1,10 @@
 #tech {
-  display: flex;
- justify-content: space-evenly;
-text-align: center;
-
   margin: auto;
   border-radius: 15px;
-  font-size: 35px;
-  margin-bottom: 70px;
- 
+  font-size: 45px;
+  margin-bottom: 90px;
 }
 #tech h1 {
-
-
-
   text-align: center;
   margin-bottom: 5px;
 }
@@ -23,14 +15,14 @@ text-align: center;
     gap: 30px;
     margin: auto;
 
-    width: 80%;
+    width: 70%;
     border-radius: 20px;
 
     align-self: center;
     position: relative;
   }
   #skillsdiv div {
-    margin:auto;
+    margin: auto;
     width: 70%;
     box-shadow: rgba(73, 73, 73, 0.35) 0px 5px 15px;
     padding: 20px;
@@ -46,12 +38,12 @@ text-align: center;
   #skillsdiv img {
     width: 41%;
   }
- 
+
   #tools {
     width: 250px;
     margin: auto;
     font-size: 35px;
-    margin-top: 20px ;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 }
@@ -69,7 +61,7 @@ text-align: center;
     margin: auto;
   }
   #skillsdiv img {
-    width:80%;;
+    width: 80%;
   }
   #skillsdiv div {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -84,12 +76,16 @@ text-align: center;
     background-color: rgb(255, 213, 255);
   }
   #tech h1 {
-
     font-size: 42px;
-   
-     text-align: center;
-     margin-bottom: 30px;
-   }
+
+    text-align: center;
+  }
+  #tech {
+    margin: auto;
+    border-radius: 15px;
+    font-size: 45px;
+    margin-bottom: 90px;
+  }
   /* #tech {
     border:1px solid red;
     align-items: center;
@@ -107,7 +103,7 @@ text-align: center;
     margin: auto;
     width: 200px;
     font-size: 30px;
-    margin-top: 20px ;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 }

@@ -27,8 +27,7 @@
   width: 75%;
 }
 #contactform > :nth-child(1) > div {
-
-  border:1px solid  rgb(150, 10, 150);;
+  border: 1px solid rgb(150, 10, 150);
 }
 #contactform > div {
   width: 60%;
@@ -45,13 +44,23 @@
   width: 80%;
 
   border-radius: 5px;
-  border: 2px solid  rgb(150, 10, 150);;
+  border: 2px solid rgb(150, 10, 150);
 }
 #formbu button {
   margin-top: 20px;
   background-color: rgb(150, 10, 150);
   color: white;
   width: 55%;
+}
+#formsub{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  margin-top: 30px;
+  border-radius: 3rem;
+  border: 8px solid var(--color-bg);
+    box-shadow: var(--color-bg) 0px 10px 20px, var(--color-bg) 0px 6px 6px;
+  margin:auto;
+  margin-top: 30px;
 }
 #message {
   height: 100px;
@@ -69,13 +78,18 @@
 }
 @media all and (min-width: 320px) and (max-width: 767px) {
   #contactform {
+    width: 95%;
     grid-template-columns: repeat(1, 1fr);
   }
   #sociallinks {
+    margin: auto;
+    margin-top: 20px;
     display: flex;
     color: rgb(255, 255, 255);
-    width: 50%;
-  
-    justify-content: space-between;
+    width: 40%;
+  }
+  #sociallinks a {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
   }
 }
