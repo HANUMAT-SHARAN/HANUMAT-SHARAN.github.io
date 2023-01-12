@@ -3,9 +3,10 @@
 #card {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin: auto;
   width: 85%;
+  padding:40px;
   border: 8px solid var(--color-bg);
   text-align: center;
 
@@ -15,7 +16,7 @@
   /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
   justify-content: center;
   align-items: center;
-  padding: 20px;
+
   background-color: white;
 
   margin-bottom: 30px;
@@ -49,6 +50,9 @@
 #des {
   color: #656566;
   font-size: 12px;
+}
+#card button{
+  background-color: var(--color-bg);
 }
 /* #card:hover{
   width:60%;
