@@ -6,7 +6,7 @@
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
   width: 85%;
-  padding:40px;
+  padding:30px;
   border: 8px solid var(--color-bg);
   text-align: center;
 
