@@ -52,6 +52,7 @@
   font-size: 12px;
 }
 #card button{
+  color:white;
   background-color: var(--color-bg);
 }
 /* #card:hover{
