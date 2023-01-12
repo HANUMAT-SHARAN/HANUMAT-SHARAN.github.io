@@ -43,7 +43,11 @@ function ContactForm() {
       >
         <h1 style={{ color: "var(--color-font)" }}>Contact Me </h1>
       </div>
-      <div id="contactform">
+      <div id="contactform"  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000"
+    data-aos-offset="100"
+  >
         <div>
           <div>
             <h1 style={{ fontSize: "30px" }}>Contact</h1>

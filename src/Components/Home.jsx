@@ -37,9 +37,9 @@ const Home = () => {
           Hello,<i class="fa-solid fa-hand-wave"></i>My Name Is{" "}
         </h1>
         <h1
-          data-aos="fade-down-left"
-          data-aos-duration="2000"
-          data-aos-delay="300"
+           data-aos="fade-down-right"
+           data-aos-duration="2000"
+           data-aos-delay="300"
           id="name"
         >
           Hanumat Sharan

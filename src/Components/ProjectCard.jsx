@@ -61,16 +61,17 @@ const ProjectCard = ({ arr }) => {
               Github
             </button>
             </a>
+            <a href={el.live}>
+              <button>{""}
+              <i class="fa-solid fa-eye"></i>
+              {"   "} Live
+            </button>
+            </a>
             <button>
               <i class="fa-solid fa-video"></i> Watch
             </button>
            
-              <a href={el.live}>
-              <button>{""}
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              {"   "} Live
-            </button>
-            </a>
+            
           </div>
         </div>
         </div>
