@@ -6,7 +6,7 @@
   grid-template-columns: repeat(2, 1fr);
   margin: auto;
   width: 85%;
-  padding:30px;
+  padding:20px;
   border: 8px solid var(--color-bg);
   text-align: center;
 
@@ -65,9 +65,10 @@
 }
 @media all and (min-width: 320px) and (max-width: 767px) {
   #card {
-    
+    margin:auto;
+    margin-left:-10px;
     grid-template-columns: repeat(1, 1fr);
-    width: 85%;
+    width: 90%;
     font-size: 13px;
   }
   #des {

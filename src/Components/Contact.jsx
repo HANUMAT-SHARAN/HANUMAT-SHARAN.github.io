@@ -43,12 +43,11 @@ function ContactForm() {
       >
         <h1 style={{ color: "var(--color-font)" }}>Contact Me </h1>
       </div>
-      <div id="contactform"  data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000"
-    data-aos-offset="100"
+      <div id="contactform"  
+    
   >
-        <div>
+        <div data-aos="fade-right"  data-aos-duration="1000"
+        data-aos-delay="100">
           <div>
             <h1 style={{ fontSize: "30px" }}>Contact</h1>
           </div>
@@ -87,7 +86,8 @@ function ContactForm() {
           </div>
         </div>
         
-        <div >
+        <div data-aos="fade-left"  data-aos-duration="1000"
+        data-aos-delay="100" >
           <form onSubmit={handleSubmit}>
             <h4>Your Name </h4>
             <input id="name" placeholder="Hanumat Sharan" name="Name" />

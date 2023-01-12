@@ -188,6 +188,8 @@ const Projects = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
           data-aos-offset="100"
+         
+         
           alt="Hanumat Activity Graph"
           src="https://github-readme-activity-graph.cyclic.app/graph?username=HANUMAT-SHARAN&theme=react-dark&hide_border=false"
         />
