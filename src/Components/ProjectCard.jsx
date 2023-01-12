@@ -36,47 +36,40 @@ const ProjectCard = ({ arr }) => {
             ))}
           </Carousel>
           <div>
-          <h1 id="title">{el.title} </h1>
-          <div id="des">
-            <h3>
-             {el.des}
-            </h3>
-          </div>
-          <div id="techstack">
-            <h2>
-              {" "}
-              <span style={{ color: "var(--color-bg)" }}>
-                Tech Stack{" ->"}
-              </span>{" "}
-              {el.techstack}
-            </h2>
-          </div>
+            <h1 id="title">{el.title} </h1>
+            <div id="des">
+              <h3>{el.des}</h3>
+            </div>
+            <div id="techstack">
+              <h2>
+                {" "}
+                <span style={{ color: "var(--color-bg)" }}>
+                  Tech Stack{" ->"}
+                </span>{" "}
+                {el.techstack}
+              </h2>
+            </div>
 
-          <div id="deployed">
-          <a href={el.github}>
-            <button>
-            
-                <i class="fa-brands fa-github"></i>
-              {" "}
-              Github
-            </button>
-            </a>
-            <a href={el.live}>
-              <button>{""}
-              <i class="fa-solid fa-eye"></i>
-              {"   "} Live
-            </button>
-            </a>
-            <button>
-              <i class="fa-solid fa-video"></i> Watch
-            </button>
-           
-            
+            <div id="deployed">
+              <a target="blank" href={el.github}>
+                <button>
+                  <i class="fa-brands fa-github"></i> Github
+                </button>
+              </a>
+              <a target="blank" href={el.live}>
+                <button>
+                  {""}
+                  <i class="fa-solid fa-eye"></i>
+                  {"   "} Live
+                </button>
+              </a>
+              <button>
+                <i class="fa-solid fa-video"></i> Watch
+              </button>
+            </div>
           </div>
-        </div>
         </div>
       ))}
-      
     </>
   );
 };

@@ -75,12 +75,12 @@ function ContactForm() {
             </h4>
           </div>
           <div id="sociallinks">
-            <a href="https://github.com/HANUMAT-SHARAN">
+            <a target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+            <a target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>

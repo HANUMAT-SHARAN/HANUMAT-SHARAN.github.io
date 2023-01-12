@@ -133,16 +133,24 @@ const Projects = () => {
         margin={"auto"}
         justifyContent={"space-around"}
       >
-        <h1 style={{ color: "var(--color-font)" }}>
+        <h2 style={{ color: "var(--color-font)" }}>
           Github Contributon Calender{" "}
-        </h1>
+        </h2>
       </div>
-      <div id="calendar">
+      <div id="calendar" data-aos="flip-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-offset="100">
+        
         <GitHubCalendar
-          fontSize={10}
+        
+          fontSize={14}
           color="#850db4"
           blockRadius={1}
-          blockMargin={5}
+          blockMargin={6}
+          blockSize={16}
+          showWeekdayLabels
+        
           username="hanumat-sharan"
         />
       </div>
@@ -154,7 +162,7 @@ const Projects = () => {
         margin={"auto"}
         justifyContent={"space-around"}
       >
-        <h1 style={{ color: "var(--color-font)" }}>Github Stats </h1>
+        <h2 style={{ color: "var(--color-font)" }}>Github Stats </h2>
       </div>
       <div id="gitstats">
         <img

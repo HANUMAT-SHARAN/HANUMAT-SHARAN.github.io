@@ -22,6 +22,7 @@ const MainPage = () => {
       <Projects />
       <Social/>
       <Contact/>
+       
     
     </div>
   );

@@ -61,3 +61,17 @@ section{
   /* margin-top:100px; */
   padding-top:70px;
 }
+#footer{
+  height:40px;
+  background-color: var(--color-bg);
+  color:white;
+
+  text-align: center;
+  margin: auto;
+  align-items: center;
+
+}
+#footer div{
+ 
+  margin:auto;
+}

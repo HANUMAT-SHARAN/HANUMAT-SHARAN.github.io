@@ -34,7 +34,7 @@ const Home = () => {
           data-aos-delay="300"
         >
           {" "}
-          Hello,<i class="fa-solid fa-hand-wave"></i>My Name Is{" "}
+          Hello<img width={40} src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="" /> {" "}My Name Is{" "}
         </h1>
         <h1
            data-aos="fade-down-right"
@@ -51,7 +51,7 @@ const Home = () => {
           id="type"
         >
           <Typewriter
-            deleteSpeed={50}
+            deleteSpeed={90}
             typeSpeed={100}
             delaySpeed={2500}
             words={[
@@ -82,12 +82,12 @@ const Home = () => {
         
       
         <div id="homesocial" >
-            <a href="https://github.com/HANUMAT-SHARAN">
+            <a target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+            <a target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
