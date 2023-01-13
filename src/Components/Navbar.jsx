@@ -2,8 +2,12 @@ import React from "react";
 import { Image, SimpleGrid,Flex, Box } from "@chakra-ui/react";
 import "../Components/nav.css";
 import NavDrawer from "./NavDrawer";
+import lock from "../Components/Audio/lock.mp3"
 
 const Navbar = () => {
+  function locksound() {
+    new Audio(lock).play();
+  }
 
 const[activenav,setActiveNav]=React.useState("#home")
 
@@ -11,7 +15,7 @@ const[activenav,setActiveNav]=React.useState("#home")
   
     <nav>
      
-      <a onClick={()=>setActiveNav("#home")} className={activenav=="#home"?"active":null}  href="#home">
+      <a onClick={()=>[setActiveNav("#home"),locksound()]} className={activenav=="#home"?"active":null}  href="#home">
         {" "}
         <Image
           boxSize={20}
@@ -19,7 +23,7 @@ const[activenav,setActiveNav]=React.useState("#home")
           alt=""
         />
       </a>
-      <a onClick={()=>setActiveNav("#about")} className={activenav=="#about"?"active":null} href="#about">
+      <a onClick={()=>[setActiveNav("#about"),locksound()]} className={activenav=="#about"?"active":null} href="#about">
         {" "}
         <Image
           boxSize={20}
@@ -27,7 +31,7 @@ const[activenav,setActiveNav]=React.useState("#home")
           alt=""
         />
       </a>
-      <a onClick={()=>setActiveNav("#skills")} className={activenav=="#skills"?"active":null} href="#skills">
+      <a onClick={()=>[setActiveNav("#skills"),locksound()]} className={activenav=="#skills"?"active":null} href="#skills">
         {" "}
         <Image
           boxSize={20}
@@ -36,7 +40,7 @@ const[activenav,setActiveNav]=React.useState("#home")
         />
       </a>
       
-      <a onClick={()=>setActiveNav("#projects")} className={activenav=="#projects"?"active":null} href="#projects">
+      <a onClick={()=>[setActiveNav("#projects"),locksound()]} className={activenav=="#projects"?"active":null} href="#projects">
         {" "}
         <Image
           boxSize={20}
@@ -50,7 +54,7 @@ const[activenav,setActiveNav]=React.useState("#home")
           src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_Message-64.png"
         />
       </a>
-      <a onClick={()=>setActiveNav("#resume")} className={activenav=="#resume"?"active":null} href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download">
+      <a onClick={()=>[setActiveNav("#resume"),locksound()]} className={activenav=="#resume"?"active":null} href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download">
         {" "}
         <Image
           boxSize={20}

@@ -18,7 +18,10 @@ const About = () => {
       </div>
 
       <div id="aboutdiv">
-        <div data-aos="fade-down-right">
+        <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-offset="100" >
           <ul type="square">
             <li>
               Hello My Name is Hanumat Sharan & I enjoy creating things that
@@ -47,7 +50,10 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div data-aos="fade-down-left">
+        <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-offset="100" >
           <img
             src="https://img.freepik.com/premium-vector/man-working-home_28923-46.jpg?w=740"
             alt=""

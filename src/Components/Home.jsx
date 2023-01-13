@@ -5,8 +5,12 @@ import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
 import my from "../Components/Images/hanumat_logo.png";
 import Aos from "aos";
-
+import lock from "../Components/Audio/lock.mp3"
 const Home = () => {
+
+  function locksound() {
+    new Audio(lock).play();
+  }
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -67,7 +71,7 @@ const Home = () => {
         </h1>
       
        <a href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download">
-          <button
+          <button onClick={locksound}
             id="resume"
             style={{
               borderRadius: "1rem",
@@ -82,19 +86,16 @@ const Home = () => {
         
       
         <div id="homesocial" >
-            <a target="blank" href="https://github.com/HANUMAT-SHARAN">
+            <a onClick={locksound}  target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+            <a onClick={locksound} target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
-        <div style={{display:"flex",width:"50%",justifyContent:"space-between",flexDirection:"row"}}>
         
-
-        </div>
         
       </div>
       

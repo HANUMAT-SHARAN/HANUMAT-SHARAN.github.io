@@ -13,17 +13,14 @@ import Contact from "./Contact";
 const MainPage = () => {
   return (
     <div>
-        <TopNavbar/>
+      <TopNavbar />
       <Navbar />
-     
       <Home />
       <About />
       <Skills />
       <Projects />
-      <Social/>
-      <Contact/>
-       
-    
+      <Social />
+      <Contact />
     </div>
   );
 };

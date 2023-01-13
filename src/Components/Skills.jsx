@@ -25,9 +25,13 @@ import Button from "./Button";
 import Tilt from "react-vanilla-tilt";
 import Aos from "aos";
 import "../Style/skill.css";
+import lock from "../Components/Audio/lock.mp3"
 import { useEffect } from "react";
 
 const Skills = () => {
+  function locksound() {
+    new Audio(lock).play();
+  }
   const [tech, setTech] = React.useState("all");
 
   useEffect(() => {
@@ -90,19 +94,19 @@ const Skills = () => {
       >
         <button
           className={tech == "all" ? "active" : null}
-          onClick={() => setTech("all")}
+          onClick={() => [setTech("all"),locksound()]}
         >
           ALL
         </button>
         <button
           className={tech == "frontend" ? "active" : null}
-          onClick={() => setTech("frontend")}
+          onClick={() => [setTech("frontend"),locksound()]}
         >
           FRONTEND{" "}
         </button>
         <button
           className={tech == "backend" ? "active" : null}
-          onClick={() => setTech("backend")}
+          onClick={() => [setTech("backend"),locksound()]}
         >
           BACKEND
         </button>
