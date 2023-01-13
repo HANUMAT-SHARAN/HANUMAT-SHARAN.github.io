@@ -47,7 +47,7 @@ const[activenav,setActiveNav]=React.useState("#home")
           src="https://cdn2.iconfinder.com/data/icons/neutro-essential/32/briefcase-64.png"
         />
       </a>
-      <a onClick={()=>setActiveNav("#contact")} className={activenav=="#contact"?"active":null} href="#contact">
+      <a onClick={()=>[setActiveNav("#contact"),locksound()]} className={activenav=="#contact"?"active":null} href="#contact">
         {" "}
         <Image
           boxSize={20}

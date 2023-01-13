@@ -17,6 +17,7 @@ const Home = () => {
   return (
     <section id="home">
       <div
+      onClick={locksound}
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"

@@ -46,10 +46,16 @@ function ContactForm() {
       >
         <h1 style={{ color: "var(--color-font)" }}>Contact Me </h1>
       </div>
-      <div id="contactform"  
+      <div  data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-offset="100" id="contactform"  
     
   >
-        <div >
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-offset="100" >
           <div>
             <h1 style={{ fontSize: "30px" }}>Contact</h1>
           </div>
@@ -77,18 +83,21 @@ function ContactForm() {
             </h4>
           </div>
           <div id="sociallinks">
-            <a target="blank" href="https://github.com/HANUMAT-SHARAN">
+            <a onClick={locksound} target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+            <a onClick={locksound} target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
         </div>
         
-        <div >
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        data-aos-offset="100" >
           <form onSubmit={handleSubmit}>
             <h4>Your Name </h4>
             <input id="name" placeholder="Hanumat Sharan" name="Name" />
