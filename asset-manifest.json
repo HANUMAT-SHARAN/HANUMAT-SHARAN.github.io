@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bd0e39a.css",
-    "main.js": "/static/js/main.08829849.js",
+    "main.css": "/static/css/main.7e1684b7.css",
+    "main.js": "/static/js/main.65738f7f.js",
     "static/js/787.1f73c1e6.chunk.js": "/static/js/787.1f73c1e6.chunk.js",
     "static/media/hanumat_logo.png": "/static/media/hanumat_logo.f24784dce3f0324c406a.png",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
     "static/media/logo.png": "/static/media/logo.2a6bffe05d924ae63261.png",
+    "static/media/typescript.png": "/static/media/typescript.17936c69824e11a996c4.png",
+    "static/media/Dsa.png": "/static/media/Dsa.24991eee32623f453b1c.png",
     "static/media/react.png": "/static/media/react.dceaa1723fa4b0f19ff5.png",
     "static/media/github.png": "/static/media/github.f559c21dc5f43a15f86b.png",
+    "static/media/cypress.webp": "/static/media/cypress.bb8c9887bc48838c8d07.webp",
     "static/media/git.png": "/static/media/git.b5723d2fd09355d535e5.png",
     "static/media/nodejs.png": "/static/media/nodejs.71a23beab09f12064284.png",
     "static/media/Css.png": "/static/media/Css.e31e30fbd381c3f058df.png",
@@ -18,12 +21,13 @@
     "static/media/next-js-seeklogo.com.svg": "/static/media/next-js-seeklogo.com.b0a63a12331e68f98f0080c0751b309d.svg",
     "index.html": "/index.html",
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
-    "main.0bd0e39a.css.map": "/static/css/main.0bd0e39a.css.map",
-    "main.08829849.js.map": "/static/js/main.08829849.js.map",
+    "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
+    "main.7e1684b7.css.map": "/static/css/main.7e1684b7.css.map",
+    "main.65738f7f.js.map": "/static/js/main.65738f7f.js.map",
     "787.1f73c1e6.chunk.js.map": "/static/js/787.1f73c1e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bd0e39a.css",
-    "static/js/main.08829849.js"
+    "static/css/main.7e1684b7.css",
+    "static/js/main.65738f7f.js"
   ]
 }
