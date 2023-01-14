@@ -33,7 +33,13 @@
   text-decoration: none;
   background-color: var(--color-bg);
 }
-
+#resumenav{
+  color: var(--color-text);
+  padding: 0px 15px 0px 15px;
+  background-color: var(--color-bg);
+  border-radius: 0.5rem;
+  height: 40%;
+}
 #navel a:hover {
   cursor: grab;
   color: var(--color-bg);

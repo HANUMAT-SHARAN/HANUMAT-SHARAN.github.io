@@ -119,7 +119,7 @@ const Skills = () => {
           BACKEND
         </button>
       </Flex>
-      <div
+      {tech==="all"?<div
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000"
@@ -137,11 +137,7 @@ const Skills = () => {
           : null}
         {tech === "frontend"
           ? frontend.map((el) => (
-              <div
-              // data-aos="flip-left"
-
-              // data-aos-offset="100"
-              >
+              <div>
                 <img alt="" src={el.img} />
                 <h3>{el.name}</h3>
               </div>
@@ -149,19 +145,82 @@ const Skills = () => {
           : null}
         {tech === "backend"
           ? backend.map((el) => (
-              <div
-              // data-aos="flip-left"
-              // data-aos-easing="ease-out-cubic"
-              // data-aos-duration="2000"
-              // data-aos-offset="100"
-              >
+              <div>
                 {" "}
                 <img alt="" src={el.img} />
                 <h3>{el.name}</h3>
               </div>
             ))
           : null}
-      </div>
+      </div>:null}
+      {tech==="backend"?<div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+        data-aos-offset="100"
+        id="skillsdiv"
+      >
+        {tech === "all"
+          ? skillsarr.map((el) => (
+              <div>
+                {" "}
+                <img alt="" src={el.img} />
+                <h3>{el.name}</h3>
+              </div>
+            ))
+          : null}
+        {tech === "frontend"
+          ? frontend.map((el) => (
+              <div>
+                <img alt="" src={el.img} />
+                <h3>{el.name}</h3>
+              </div>
+            ))
+          : null}
+        {tech === "backend"
+          ? backend.map((el) => (
+              <div>
+                {" "}
+                <img alt="" src={el.img} />
+                <h3>{el.name}</h3>
+              </div>
+            ))
+          : null}
+      </div>:null}
+      {tech==="frontend"?<div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+        data-aos-offset="100"
+        id="skillsdiv"
+      >
+        {tech === "all"
+          ? skillsarr.map((el) => (
+              <div>
+                {" "}
+                <img alt="" src={el.img} />
+                <h3>{el.name}</h3>
+              </div>
+            ))
+          : null}
+        {tech === "frontend"
+          ? frontend.map((el) => (
+              <div>
+                <img alt="" src={el.img} />
+                <h3>{el.name}</h3>
+              </div>
+            ))
+          : null}
+        {tech === "backend"
+          ? backend.map((el) => (
+              <div>
+                {" "}
+                <img alt="" src={el.img} />
+                <h3>{el.name}</h3>
+              </div>
+            ))
+          : null}
+      </div>:null}
       <Flex
         id="tools"
         data-aos="flip-left"
