@@ -102,7 +102,7 @@ function ContactForm() {
             <h4>Email Address</h4>
             <input
               id="email"
-              placeholder="zyz@gmail.com"
+              placeholder="deotadayal27@gmail.com"
               type="email"
               name="Email"
             />
@@ -115,7 +115,7 @@ function ContactForm() {
               errors={state.errors}
             />
             <h4>Message</h4>
-            <input id="message" type="text" name="Message" />
+            <input placeholder="Message" style={{paddingTop:"10px",paddingBottom:"90px"}} id="message" type="text" name="Message" />
 
             <ValidationError
               prefix="Message"

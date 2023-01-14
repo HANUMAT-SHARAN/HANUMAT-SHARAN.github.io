@@ -126,7 +126,7 @@ const Projects = () => {
         </div>
       </div>
       <div
-        id="tech"
+        id="gitname"
         data-aos="fade-down-right"
         data-aos-duration="2000"
         data-aos-delay="300"
@@ -134,7 +134,7 @@ const Projects = () => {
         justifyContent={"space-around"}
       >
         <h2 style={{ color: "var(--color-font)" }}>
-          Github Contributon Calender{" "}
+          Github Contribution Calender{" "}
         </h2>
       </div>
       <div id="calendar" data-aos="flip-right"
@@ -155,7 +155,7 @@ const Projects = () => {
         />
       </div>
       <div
-        id="tech"
+        id="gitname"
         data-aos="fade-down-right"
         data-aos-duration="2000"
         data-aos-delay="300"
