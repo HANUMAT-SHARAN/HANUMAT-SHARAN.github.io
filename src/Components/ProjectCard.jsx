@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import Carousel from "nuka-carousel/lib/carousel";
 import "../Style/card.css";
 import Aos from "aos";
-
-
+import html from "../Components/Images/Html.png";
+import css from "../Components/Images/Css.png";
+import react from "../Components/Images/react.png";
+import js from "../Components/Images/js.png";
 const ProjectCard = ({ arr }) => {
   
  
@@ -49,11 +51,17 @@ const ProjectCard = ({ arr }) => {
             </div>
             <div id="techstack">
               <h2>
-                {" "}
+                {/* {" "}
                 <span style={{ color: "var(--color-bg)" }}>
                   Tech Stack{" ->"}
                 </span>{" "}
-                {el.techstack}
+                {el.techstack} */}
+               <div id="tsres">
+               {el.techstack.map((el)=><div>
+                <img width={50} src={el.src} alt=""/>
+                <p>{el.name}</p>
+               </div>)}
+               </div>
               </h2>
             </div>
 
