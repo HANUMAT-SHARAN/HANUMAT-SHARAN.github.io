@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c397e0b2.css",
-    "main.js": "/static/js/main.52bf0676.js",
+    "main.css": "/static/css/main.f88cc4c9.css",
+    "main.js": "/static/js/main.203057d8.js",
     "static/js/787.1f73c1e6.chunk.js": "/static/js/787.1f73c1e6.chunk.js",
     "static/media/hanumat_logo.png": "/static/media/hanumat_logo.f24784dce3f0324c406a.png",
     "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
@@ -22,12 +22,12 @@
     "index.html": "/index.html",
     "static/media/mongodb-seeklogo.com.svg": "/static/media/mongodb-seeklogo.com.1aca075d5cce0819fea7ea0902d94ce4.svg",
     "static/media/npm.876.svg": "/static/media/npm.876.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.c397e0b2.css.map": "/static/css/main.c397e0b2.css.map",
-    "main.52bf0676.js.map": "/static/js/main.52bf0676.js.map",
+    "main.f88cc4c9.css.map": "/static/css/main.f88cc4c9.css.map",
+    "main.203057d8.js.map": "/static/js/main.203057d8.js.map",
     "787.1f73c1e6.chunk.js.map": "/static/js/787.1f73c1e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c397e0b2.css",
-    "static/js/main.52bf0676.js"
+    "static/css/main.f88cc4c9.css",
+    "static/js/main.203057d8.js"
   ]
 }
