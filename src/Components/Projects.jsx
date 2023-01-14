@@ -31,7 +31,7 @@ const Projects = () => {
       according to there needs by paying rent for the products on monthly
       Subscription based model`,
       title: "RentoMojo",
-      techstack: [{src:html,name:"HTML"},{src:css,name:"CSS"},{src:js,name:"JavaScript"},{src:react,name:"React"},{src:chakra,name:"Chakra UI"}],
+      techstack: [{src:html,name:"HTML"},{src:css,name:"CSS"},{src:js,name:"JavaScript"},{src:react,name:"React"},{src:chakra,name:"Chakra"}],
       live:`https://rent-do-maja-lo-hanumat-sharan.vercel.app/`,
       github:`https://github.com/HANUMAT-SHARAN/filthy-range-8205`
     },

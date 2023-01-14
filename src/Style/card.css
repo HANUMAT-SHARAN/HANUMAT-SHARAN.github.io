@@ -116,13 +116,14 @@
   }
 
   #tsres{
-    /* border:1px solid red; */
+    
      display: flex;
-     width: 100%;
+     width: 90%;
      margin:auto;
      text-align: center;
      align-items: center;
      justify-content: space-around;
+     
      
    }
    #tsres img{
