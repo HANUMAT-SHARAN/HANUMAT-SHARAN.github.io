@@ -43,7 +43,7 @@ const ProjectCard = ({ arr }) => {
             ))}
           </Carousel>
           <div>
-            <h1 id="title">{el.title} </h1>
+            <h1 id="title">{el.title} <span style={{color:"var(--color-bg)",fontSize:"18px"}}>[Clone]</span> </h1>
             <div id="des">
               <h3>{el.des}</h3>
             </div>

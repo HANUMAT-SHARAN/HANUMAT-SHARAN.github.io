@@ -21,14 +21,16 @@ import github from "../Components/Images/github.png";
 import chakra from "../Components/Images/chakra.png";
 import express from "../Components/Images/express.png";
 import vs from "../Components/Images/vscode.png";
-
+import typescript from "../Components/Images/typescript.png";
+import npm from "../Components/Images/npm.876.svg";
+import dsa from "../Components/Images/Dsa.png";
+import cypress from "../Components/Images/cypress.webp"
 import Aos from "aos";
 import "../Style/skill.css";
 
 import { useEffect } from "react";
 
 const Skills = () => {
- 
   const [tech, setTech] = React.useState("all");
 
   useEffect(() => {
@@ -45,6 +47,10 @@ const Skills = () => {
     { img: node, name: "Node JS" },
     { img: next, name: "Next JS" },
     { img: express, name: "Express JS" },
+    { img: typescript, name: "Type Script" },
+    { img: npm, name: "Npm" },
+    { img: dsa, name: "DSA" },
+   
   ];
   const frontend = [
     { img: html, name: "HTML" },
@@ -53,12 +59,17 @@ const Skills = () => {
     { img: react, name: "React" },
     { img: redux, name: "Redux" },
     { img: next, name: "Next JS" },
+    { img: typescript, name: "Type Script" },
+    { img: npm, name: "Npm" },
+    { img: dsa, name: "DSA" },
+   
   ];
   const backend = [
     { img: mongo, name: "Mongo Db" },
     { img: node, name: "Node JS" },
-
+    { img: npm, name: "Npm" },
     { img: express, name: "Express JS" },
+    { img: dsa, name: "DSA" },
   ];
   const toolsarr = [
     { img: vs, name: "VS Code" },
