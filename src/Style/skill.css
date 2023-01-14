@@ -11,11 +11,11 @@
 @media all and (min-width: 768px) and (max-width: 2000px) {
   #skillsdiv {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
     margin: auto;
 
-    width: 70%;
+    width: 80%;
     border-radius: 20px;
 
     align-self: center;

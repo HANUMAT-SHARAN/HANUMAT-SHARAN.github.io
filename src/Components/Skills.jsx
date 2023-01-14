@@ -24,7 +24,7 @@ import vs from "../Components/Images/vscode.png";
 import typescript from "../Components/Images/typescript.png";
 import npm from "../Components/Images/npm.876.svg";
 import dsa from "../Components/Images/Dsa.png";
-import cypress from "../Components/Images/cypress1.webp"
+import cypress from "../Components/Images/cypress1.webp";
 import Aos from "aos";
 import "../Style/skill.css";
 
@@ -50,8 +50,7 @@ const Skills = () => {
     { img: typescript, name: "Type Script" },
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
-    {img:cypress,name:"Cypress"}
-   
+    { img: cypress, name: "Cypress" },
   ];
   const frontend = [
     { img: html, name: "HTML" },
@@ -63,8 +62,7 @@ const Skills = () => {
     { img: typescript, name: "Type Script" },
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
-    {img:cypress,name:"Cypress"}
-   
+    { img: cypress, name: "Cypress" },
   ];
   const backend = [
     { img: mongo, name: "Mongo Db" },
@@ -121,15 +119,16 @@ const Skills = () => {
           BACKEND
         </button>
       </Flex>
-      <div id="skillsdiv">
+      <div
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+        data-aos-offset="100"
+        id="skillsdiv"
+      >
         {tech === "all"
           ? skillsarr.map((el) => (
-              <div
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
-                data-aos-offset="100"
-              >
+              <div>
                 {" "}
                 <img alt="" src={el.img} />
                 <h3>{el.name}</h3>
@@ -139,10 +138,9 @@ const Skills = () => {
         {tech === "frontend"
           ? frontend.map((el) => (
               <div
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
-                data-aos-offset="100"
+              // data-aos="flip-left"
+
+              // data-aos-offset="100"
               >
                 <img alt="" src={el.img} />
                 <h3>{el.name}</h3>
@@ -152,10 +150,10 @@ const Skills = () => {
         {tech === "backend"
           ? backend.map((el) => (
               <div
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
-                data-aos-offset="100"
+              // data-aos="flip-left"
+              // data-aos-easing="ease-out-cubic"
+              // data-aos-duration="2000"
+              // data-aos-offset="100"
               >
                 {" "}
                 <img alt="" src={el.img} />
