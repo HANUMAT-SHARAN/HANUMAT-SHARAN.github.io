@@ -26,7 +26,7 @@ const Projects = () => {
       according to there needs by paying rent for the products on monthly
       Subscription based model`,
       title: "RentoMojo-Clone",
-      techstack: ` HTML CSS Java Script React Chakra UI`,
+      techstack: ` HTML | CSS | Java Script | React | Chakra UI`,
       live:`https://rent-do-maja-lo-hanumat-sharan.vercel.app/`,
       github:`https://github.com/HANUMAT-SHARAN/filthy-range-8205`
     },
@@ -56,7 +56,7 @@ const Projects = () => {
       des: `
       Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow`,
       title: "ChargeBee-Clone",
-      techstack: ` HTML CSS Java Script`,
+      techstack: ` HTML | CSS | Java Script`,
       live:`https://dazzling-buttercream-31808d.netlify.app/index.html`,
       github:`https://github.com/HANUMAT-SHARAN/wicked-edge-6587`
     },
@@ -79,9 +79,9 @@ const Projects = () => {
         
       ],
       des: `
-      Chargebee is the subscription billing and revenue management platform that lets you solve for your today, and scale for your tomorrow`,
+      Optimizely is the website which helps the small companies to grow thier business exponentially by doing digital Marketing across diffrent platforms to reach more audience`,
       title: "Optimizely-Clone",
-      techstack: ` HTML CSS Java Script`,
+      techstack: ` HTML | CSS | Java Script`,
       live:`https://effulgent-cobbler-698112.netlify.app/`,
       github:`https://github.com/HANUMAT-SHARAN/-main-insurance-1276`
     },

@@ -2,14 +2,12 @@ import React, { useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { Button, Input } from "@mui/material";
 import Aos from "aos";
-import lock from "../Components/Audio/lock.mp3"
+
 import "../Style/contact.css";
 function ContactForm() {
   const [show,setShow]=React.useState(false)
   const [state, handleSubmit] = useForm("xyyayvwe");
-  function locksound() {
-    new Audio(lock).play();
-  }
+ 
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
@@ -83,12 +81,12 @@ function ContactForm() {
             </h4>
           </div>
           <div id="sociallinks">
-            <a onClick={locksound} target="blank" href="https://github.com/HANUMAT-SHARAN">
+            <a  target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a onClick={locksound} target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+            <a  target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
@@ -125,7 +123,7 @@ function ContactForm() {
               errors={state.errors}
             />
             <div id="formbu">
-              <button onClick={locksound} type="submit" disabled={state.submitting}>
+              <button  type="submit" disabled={state.submitting}>
                 Submit
               </button>
             </div>

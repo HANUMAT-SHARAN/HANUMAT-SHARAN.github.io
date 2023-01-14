@@ -2,22 +2,14 @@ import React, { useState, useEffect } from "react";
 import Carousel from "nuka-carousel/lib/carousel";
 import "../Style/card.css";
 import Aos from "aos";
-import aud from "../Components/Audio/cardaudio.mp3";
-import lock from "../Components/Audio/lock.mp3";
+
+
 const ProjectCard = ({ arr }) => {
-  // function playsound() {
-  //   new Audio(aud).play();
-  // }
-  function locksound() {
-    new Audio(lock).play();
-  }
+  
+ 
 
-  // window.onload = start();
 
-  // function start() {
-  //   console.log(1);
-  // }
-  // window.addEventListener("onload",playsound)
+
   let defaultControlsConfig = {
     nextButtonText: "nextf",
     prevButtonText: "d",
@@ -67,18 +59,18 @@ const ProjectCard = ({ arr }) => {
 
             <div id="deployed">
               <a target="blank" href={el.github}>
-                <button onClick={locksound}>
+                <button >
                   <i class="fa-brands fa-github"></i> Github
                 </button>
               </a>
               <a target="blank" href={el.live}>
-                <button onClick={locksound}>
+                <button >
                   {""}
                   <i class="fa-solid fa-eye"></i>
                   {"   "} Live
                 </button>
               </a>
-              <button onClick={locksound}>
+              <button >
                 <i class="fa-solid fa-video"></i> Watch
               </button>
             </div>

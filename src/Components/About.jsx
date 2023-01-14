@@ -36,7 +36,7 @@ const About = () => {
             <li>
               My interest in web development started back last year when I was
               working with an E-Commerce Affiliate Platform in which they were
-              facing to make good web applicaions.
+              facing problems to make good web applications.
             </li>
             <li>
               As I grow and flourish as a Developer, one thing which keeps me

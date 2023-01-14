@@ -21,17 +21,14 @@ import github from "../Components/Images/github.png";
 import chakra from "../Components/Images/chakra.png";
 import express from "../Components/Images/express.png";
 import vs from "../Components/Images/vscode.png";
-import Button from "./Button";
-import Tilt from "react-vanilla-tilt";
+
 import Aos from "aos";
 import "../Style/skill.css";
-import lock from "../Components/Audio/lock.mp3"
+
 import { useEffect } from "react";
 
 const Skills = () => {
-  function locksound() {
-    new Audio(lock).play();
-  }
+ 
   const [tech, setTech] = React.useState("all");
 
   useEffect(() => {
@@ -94,19 +91,19 @@ const Skills = () => {
       >
         <button
           className={tech == "all" ? "active" : null}
-          onClick={() => [setTech("all"),locksound()]}
+          onClick={() => [setTech("all")]}
         >
           ALL
         </button>
         <button
           className={tech == "frontend" ? "active" : null}
-          onClick={() => [setTech("frontend"),locksound()]}
+          onClick={() => [setTech("frontend")]}
         >
           FRONTEND{" "}
         </button>
         <button
           className={tech == "backend" ? "active" : null}
-          onClick={() => [setTech("backend"),locksound()]}
+          onClick={() => [setTech("backend")]}
         >
           BACKEND
         </button>
