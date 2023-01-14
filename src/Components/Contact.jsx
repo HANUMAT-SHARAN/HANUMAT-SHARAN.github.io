@@ -5,31 +5,35 @@ import Aos from "aos";
 
 import "../Style/contact.css";
 function ContactForm() {
-  const [show,setShow]=React.useState(false)
+  const [show, setShow] = React.useState(false);
   const [state, handleSubmit] = useForm("xyyayvwe");
- 
+
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   if (state.succeeded) {
-    
-    return <> <div
-    
-    id="formsub"
-    data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000"
-    data-aos-offset="100"
-    style={{ textAlign: "center"}}
-  >
-    <img
-      width={300}
-      src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-3d-green-check-mark-icon-png-image_6552255.png"
-      alt=""
-    />
-    <h1>Thanks for Filling Up the Form <br /> We will Contact You Soon!</h1>
-  </div> 
-  </>
+    return (
+      <>
+        {" "}
+        <div
+          id="formsub"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-offset="100"
+          style={{ textAlign: "center" }}
+        >
+          <img
+            width={300}
+            src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-3d-green-check-mark-icon-png-image_6552255.png"
+            alt=""
+          />
+          <h1>
+            Thanks for Filling Up the Form <br /> We will Contact You Soon!
+          </h1>
+        </div>
+      </>
+    );
   }
 
   return (
@@ -44,65 +48,83 @@ function ContactForm() {
       >
         <h1 style={{ color: "var(--color-font)" }}>Contact Me </h1>
       </div>
-      <div  data-aos="flip-left"
+      <div
+        data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
-        data-aos-offset="100" id="contactform"  
-    
-  >
+        data-aos-offset="100"
+        id="contactform"
+      >
+        {/*   <i class="fa-sharp fa-solid fa-location-pin"></i>{" "}    <i class="fa-solid fa-envelope"></i>*/}
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
-        data-aos-offset="100" >
-          <div>
-            <h1 style={{ fontSize: "30px" }}>Contact</h1>
-          </div>
-          <div>
-            <h4>Fill Up The Form To Contact</h4>
-          </div>
-          <div>
-            <h4>
+        data-aos-offset="100"
+        id="contactlinkdiv">
+        <div className="Email">
+            <div >
               {" "}
-              <i class="fa-sharp fa-solid fa-phone"></i>
-              {"    "}+91-8264121428
-            </h4>
+              <i class="fa-solid fa-envelope"></i>{" "}
+            </div>
+
+            <h3>Email </h3>
+            <h3>deotadayal27@gmail.com</h3>
+            <a href="mailto:deotadayal27@gmail.com">
+              <h3> Email Now ! </h3>
+            </a>
           </div>
-          <div>
-            <h4>
-              <i class="fa-solid fa-envelope"></i>
-              deotadayal@gmail.com
-            </h4>
-          </div>
-          <div>
-            <h4>
+          <div className="whatsapp">
+            <div >
               {" "}
-              <i class="fa-sharp fa-solid fa-location-pin"></i>{" "}
-              <span>{"  "}</span> Punjab,India
-            </h4>
+              <i class="fa-sharp fa-solid fa-phone"></i>{" "}
+            </div>
+
+            <h3>Phone Call</h3>
+            <h3>+91 8264121428</h3>
+            <a href="tel:918264121428">
+              <h3> Call Now ! </h3>
+            </a>
           </div>
-          <div id="sociallinks">
-            <a  target="blank" href="https://github.com/HANUMAT-SHARAN">
+          <div className="call">
+            <div >
+              {" "}
+              <i class="fa-brands fa-square-whatsapp"></i>
+            </div>
+            <h3>Whatsapp</h3>
+            <h3>+91 8264121428</h3>
+            <a href="https://wa.me/918264121428">
+              {" "}
+              <h3>Whatsapp Now ! </h3>
+            </a>
+          </div>
+          <div id="socialgit" >
+            <a target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
             </a>
 
-            <a  target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
+            <a
+              target="blank"
+              href="https://www.linkedin.com/in/hanumat-sharan-168548258/"
+            >
               <i class="fa-brands fa-linkedin"></i>
             </a>
           </div>
         </div>
-        
-        <div data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-        data-aos-offset="100" >
+
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-offset="100"
+        >
           <form onSubmit={handleSubmit}>
             <h4>Your Name </h4>
-            <input id="name" placeholder="Hanumat Sharan" name="Name" />
+            <input id="name" placeholder="Insert Your Name" name="Name" />
             <h4>Email Address</h4>
             <input
               id="email"
-              placeholder="deotadayal27@gmail.com"
+              placeholder="Insert Your Email"
               type="email"
               name="Email"
             />
@@ -115,7 +137,13 @@ function ContactForm() {
               errors={state.errors}
             />
             <h4>Message</h4>
-            <input placeholder="Message" style={{paddingTop:"10px",paddingBottom:"90px"}} id="message" type="text" name="Message" />
+            <input
+              placeholder=" Insert Your Message"
+              style={{ paddingTop: "10px", paddingBottom: "90px" }}
+              id="message"
+              type="text"
+              name="Message"
+            />
 
             <ValidationError
               prefix="Message"
@@ -123,26 +151,12 @@ function ContactForm() {
               errors={state.errors}
             />
             <div id="formbu">
-              <button  type="submit" disabled={state.submitting}>
+              <button type="submit" disabled={state.submitting}>
                 Submit
               </button>
             </div>
           </form>
         </div>
-        {/* <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
-          style={{ textAlign: "center",display:show?"block":"none" }}
-        >
-          <img
-            width={300}
-            src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-3d-green-check-mark-icon-png-image_6552255.png"
-            alt=""
-          />
-          <h1>Thanks for Filling Up the Form We will Contact You Soon!</h1>
-        </div>  */}
       </div>
     </section>
   );
