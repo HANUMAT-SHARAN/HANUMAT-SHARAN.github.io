@@ -11,7 +11,7 @@
 @media all and (min-width: 768px) and (max-width: 2000px) {
   #skillsdiv {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin: auto;
 
@@ -36,7 +36,7 @@
     background-color: rgb(255, 213, 255);
   }
   #skillsdiv img {
-    width: 41%;
+    width: 71%;
   }
 
   #tools {

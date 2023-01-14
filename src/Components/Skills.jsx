@@ -24,7 +24,7 @@ import vs from "../Components/Images/vscode.png";
 import typescript from "../Components/Images/typescript.png";
 import npm from "../Components/Images/npm.876.svg";
 import dsa from "../Components/Images/Dsa.png";
-import cypress from "../Components/Images/cypress.webp"
+import cypress from "../Components/Images/cypress1.webp"
 import Aos from "aos";
 import "../Style/skill.css";
 
@@ -50,6 +50,7 @@ const Skills = () => {
     { img: typescript, name: "Type Script" },
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
+    {img:cypress,name:"Cypress"}
    
   ];
   const frontend = [
@@ -62,6 +63,7 @@ const Skills = () => {
     { img: typescript, name: "Type Script" },
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
+    {img:cypress,name:"Cypress"}
    
   ];
   const backend = [
