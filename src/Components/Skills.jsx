@@ -102,19 +102,19 @@ const Skills = () => {
       >
         <button
           className={tech == "all" ? "active" : null}
-          onClick={() => [setTech("all")]}
+          onClick={() => setTech("all")}
         >
           ALL
         </button>
         <button
           className={tech == "frontend" ? "active" : null}
-          onClick={() => [setTech("frontend")]}
+          onClick={() => setTech("frontend")}
         >
           FRONTEND{" "}
         </button>
         <button
           className={tech == "backend" ? "active" : null}
-          onClick={() => [setTech("backend")]}
+          onClick={() => setTech("backend")}
         >
           BACKEND
         </button>

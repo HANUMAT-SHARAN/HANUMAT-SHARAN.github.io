@@ -29,7 +29,7 @@ const[activenav,setActiveNav]=React.useState("#home")
           alt=""
         />
       </a>
-      <a onClick={()=>[setActiveNav("#skills")]} className={activenav=="#skills"?"active":null} href="#skills">
+      <a onClick={()=>setActiveNav("#skills")} className={activenav=="#skills"?"active":null} href="#skills">
         {" "}
         <Image
           boxSize={20}
@@ -38,21 +38,21 @@ const[activenav,setActiveNav]=React.useState("#home")
         />
       </a>
       
-      <a onClick={()=>[setActiveNav("#projects")]} className={activenav=="#projects"?"active":null} href="#projects">
+      <a onClick={()=>setActiveNav("#projects")} className={activenav=="#projects"?"active":null} href="#projects">
         {" "}
         <Image
           boxSize={20}
           src="https://cdn2.iconfinder.com/data/icons/neutro-essential/32/briefcase-64.png"
         />
       </a>
-      <a onClick={()=>[setActiveNav("#contact")]} className={activenav=="#contact"?"active":null} href="#contact">
+      <a onClick={()=>setActiveNav("#contact")} className={activenav=="#contact"?"active":null} href="#contact">
         {" "}
         <Image
           boxSize={20}
           src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_Message-64.png"
         />
       </a>
-      <a target="blank" onClick={()=>[setActiveNav("#resume")]} className={activenav=="#resume"?"active":null} href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW">
+      <a target="blank" onClick={()=>setActiveNav("#resume")} className={activenav=="#resume"?"active":null} href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW">
         {" "}
         <Image
           boxSize={20}
