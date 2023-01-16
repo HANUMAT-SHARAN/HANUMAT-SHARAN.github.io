@@ -28,13 +28,13 @@
 #contactform > :nth-child(2) {
   background-color: white;
   color: var(--color-heading);
-  width: 75%;
+  width: 70%;
 }
 #contactform > :nth-child(1) > div {
   border: 1px solid var(--color-bg);
 }
 #contactform > div {
-  width: 60%;
+
   align-items: center;
   height: 90%;
   margin: auto;
@@ -42,20 +42,20 @@
   padding: 20px;
 }
 #contactform input {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: bold;
   padding: 7px;
   width: 80%;
-  border: 2px solid var(--color-bg);
+  border: 1px solid var(--color-bg);
 
   border-radius: 5px;
   /* border: 2px solid var(--color-bg) */
 }
-#formbu button {
+#btnform {
   margin-top: 20px;
   background-color: var(--color-bg);
   color: white;
-  width: 55%;
+  
 }
 #formsub {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -69,16 +69,41 @@
 }
 #contactlinkdiv {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1,110%);
+  justify-content: center;
+  align-items: center;
+  
   gap: 20px;
+  
 }
-#contactlinkdiv div {
-width: 90%;
-  text-align: center;
-  padding: 5px;
-  color: var(--color-heading);
-  background-color: white;
-  border-radius: 2rem;
+
+#contactlinkdiv>div>div{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* border:1px solid red; */
+}
+#contactlinkdiv button{
+ margin-bottom: 20px;
+
+  /* border:1px solid red; */
+}
+#contactlinkdiv>div {
+  display: grid;
+
+  border-radius: 1rem;
+
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-evenly;
+
+background-color: white;
+color:var(--color-heading);
+/* text-align: center;
+padding: 5px 15px 5px 15px;
+border-radius: 1rem;
+border:1px solid rgb(43, 255, 0); */
 }
 #contactlinkdiv a {
   text-decoration: none;
@@ -86,7 +111,6 @@ width: 90%;
 
 #socialgit {
   display: flex;
-
   justify-content: space-around;
 }
 #socialgit a {
@@ -97,6 +121,9 @@ width: 90%;
   #contactform {
     width: 95%;
     grid-template-columns: repeat(1, 1fr);
+  }
+  #contactlinkdiv>div {
+    grid-template-columns: repeat(1,1fr);
   }
   #sociallinks {
     margin: auto;

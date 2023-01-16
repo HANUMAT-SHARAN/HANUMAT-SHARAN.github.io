@@ -1,4 +1,7 @@
 import React, { useEffect } from "react";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import CallIcon from '@mui/icons-material/Call';
+import EmailIcon from '@mui/icons-material/Email';
 import { useForm, ValidationError } from "@formspree/react";
 import { Button, Input } from "@mui/material";
 import Aos from "aos";
@@ -29,7 +32,7 @@ function ContactForm() {
             alt=""
           />
           <h1>
-            Thanks for Filling Up the Form <br /> We will Contact You Soon!
+            Your mail has been sent Succesfully !
           </h1>
         </div>
       </>
@@ -56,48 +59,64 @@ function ContactForm() {
         id="contactform"
       >
         {/*   <i class="fa-sharp fa-solid fa-location-pin"></i>{" "}    <i class="fa-solid fa-envelope"></i>*/}
-        <div data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-        data-aos-offset="100"
-        id="contactlinkdiv">
-        <div className="Email">
-            <div >
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-offset="100"
+          id="contactlinkdiv"
+        >
+          <div>
+            <div>
               {" "}
-              <i class="fa-solid fa-envelope"></i>{" "}
+              <div style={{fontSize:"1.5rem",marginRight:"10px"}}>
+              <i  class="fa-solid fa-envelope"></i>
+              </div>
+              <h4>deotadayal27@gmail.com</h4>
             </div>
-
-            <h3>Email </h3>
-            <h3>deotadayal27@gmail.com</h3>
-            <a href="mailto:deotadayal27@gmail.com">
-              <h3> Email Now ! </h3>
-            </a>
+            <div>
+            <a target={"blank"} href="mailto:deotadayal27@gmail.com"><button id="btnform">
+               
+               Email Now !
+             </button></a>
+              
+            </div>
           </div>
           <div className="whatsapp">
-            <div >
+            <div>
               {" "}
-              <i class="fa-sharp fa-solid fa-phone"></i>{" "}
+              <div style={{fontSize:"1.5rem",marginRight:"10px"}}>
+             
+              <i class="fa-solid fa-phone"></i>
+              </div>
+              <h4> Phone : +91 8264121428</h4>
             </div>
-
-            <h3>Phone Call</h3>
-            <h3>+91 8264121428</h3>
-            <a href="tel:918264121428">
-              <h3> Call Now ! </h3>
-            </a>
+            <div>
+              <a target={"blank"} href="tel:918264121428">
+                {" "}
+                <button id="btnform">Call Now !</button>
+              </a>
+            </div>
           </div>
           <div className="call">
             <div >
-              {" "}
-              <i class="fa-brands fa-square-whatsapp"></i>
+           <div style={{fontSize:"2rem",marginRight:"20px"}} > <i class="fa-brands fa-whatsapp"></i></div>
+              <h4> Whatsapp</h4>
             </div>
-            <h3>Whatsapp</h3>
-            <h3>+91 8264121428</h3>
-            <a href="https://wa.me/918264121428">
+            <div>
+              <a target={"blank"} href="https://wa.me/918264121428">
+                <button id="btnform">Whatsapp Now !</button>
+              </a>
+            </div>
+            {/* <div >
               {" "}
-              <h3>Whatsapp Now ! </h3>
-            </a>
+             
+            </div>
+            <h4>Whatsapp</h4>
+            <h4>+91 8264121428</h4>
+           */}
           </div>
-          <div id="socialgit" >
+          <div style={{display:"flex",justifyContent:"space-evenly"}} id="socialgit">
             <a target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
@@ -151,7 +170,12 @@ function ContactForm() {
               errors={state.errors}
             />
             <div id="formbu">
-              <button type="submit" disabled={state.submitting}>
+              <button
+                style={{ width: "55%",marginBottom:"20px" }}
+                id="btnform"
+                type="submit"
+                disabled={state.submitting}
+              >
                 Submit
               </button>
             </div>

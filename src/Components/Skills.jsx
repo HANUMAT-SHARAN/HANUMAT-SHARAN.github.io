@@ -196,7 +196,7 @@ const Skills = () => {
       >
         {tech === "all"
           ? skillsarr.map((el) => (
-              <div>
+              <div >
                 {" "}
                 <img alt="" src={el.img} />
                 <h3>{el.name}</h3>

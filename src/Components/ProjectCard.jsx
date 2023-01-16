@@ -68,18 +68,18 @@ const ProjectCard = ({ arr }) => {
             <div id="deployed">
               <a target="blank" href={el.github}>
                 <button >
-                  <i class="fa-brands fa-github"></i> Github
+                  <i class="fa-brands fa-github"></i> 
                 </button>
               </a>
               <a target="blank" href={el.live}>
                 <button >
                   {""}
                   <i class="fa-solid fa-eye"></i>
-                  {"   "} Live
+                  {"   "} 
                 </button>
               </a>
               <button >
-                <i class="fa-solid fa-video"></i> Watch
+                <i class="fa-solid fa-video"></i>
               </button>
             </div>
           </div>

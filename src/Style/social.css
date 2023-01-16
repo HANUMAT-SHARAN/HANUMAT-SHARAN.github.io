@@ -28,12 +28,12 @@
 #git:hover {
   color: var(--color-bg);
   font-size: 3rem;
-  transition: 0.5s;
+  transition: ease 0.5s;
 }
 #link:hover {
   color: var(--color-bg);
   font-size: 3rem;
-  transition: 0.5s;
+  transition: ease 0.5s;
 }
 
 @media all and (min-width: 320px) and (max-width: 635px) {

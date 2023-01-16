@@ -8,24 +8,29 @@
   gap: 50px;
 }
 #aboutdiv img {
-    width: 450px;
+    width: 85%;
   border-radius: 2rem;
 }
 #aboutdiv li {
   padding: 10px;
 }
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 320px) and (max-width: 1050px) {
   #aboutdiv {
     gap: 20px;
+  
     width: 80%;
     grid-template-columns: repeat(1, 1fr);
+  }
+ 
+  #aboutdiv>:nth-child(2){
+    text-align: center;
   }
   #aboutdiv li {
     margin-left: -15%;
     padding: 5px;
   }
   #aboutdiv img {
-    width: 350px;
+    width: 80%;
   border-radius: 2rem;
 }
 
