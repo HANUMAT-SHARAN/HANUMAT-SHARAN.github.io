@@ -14,6 +14,7 @@
 #aboutdiv li {
   padding: 10px;
 }
+
 @media all and (min-width: 320px) and (max-width: 1050px) {
   #aboutdiv {
     gap: 20px;

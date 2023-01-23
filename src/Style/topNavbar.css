@@ -17,6 +17,7 @@
   font-size: 18px;
 }
 
+
 #navel {
   display: flex;
   justify-content: space-between;
@@ -46,6 +47,7 @@
 
   border-radius: 2rem;
 }
+
 #sidebar {
   display: none;
 }
@@ -68,7 +70,7 @@
   border-radius: 0.5rem;
   height: 40%;
 }
-@media all and (min-width: 320px) and (max-width: 667px) {
+@media all and (min-width: 320px) and (max-width: 807px) {
   #navel {
     display: none;
   }

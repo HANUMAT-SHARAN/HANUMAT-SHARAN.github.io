@@ -94,7 +94,9 @@
   display: grid;
 
   border-radius: 1rem;
-
+width:100%;
+margin:auto;
+margin-left: 4%;
   grid-template-columns: repeat(2,1fr);
   justify-content: space-evenly;
 
@@ -116,6 +118,17 @@ border:1px solid rgb(43, 255, 0); */
 #socialgit a {
   font-size: 40px;
   color: var(--color-bg);
+}
+@media all and (min-width: 767px) and (max-width: 1115px) {
+  
+
+  #contactform {
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #contactlinkdiv>div {
+    grid-template-columns: repeat(1,1fr);
+  }
 }
 @media all and (min-width: 320px) and (max-width: 767px) {
   #contactform {

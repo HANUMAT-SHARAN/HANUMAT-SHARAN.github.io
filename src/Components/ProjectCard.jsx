@@ -7,11 +7,6 @@ import css from "../Components/Images/Css.png";
 import react from "../Components/Images/react.png";
 import js from "../Components/Images/js.png";
 const ProjectCard = ({ arr }) => {
-  
- 
-
-
-
   let defaultControlsConfig = {
     nextButtonText: "nextf",
     prevButtonText: "d",
@@ -21,15 +16,21 @@ const ProjectCard = ({ arr }) => {
     pagingDotsClassName: "con",
     speed: 20,
   };
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
 
   return (
     <>
-     
       {arr.map((el) => (
-        <div  id="card">
+        <div id="card">
           <Carousel
             defaultControlsConfig={defaultControlsConfig}
             autoplay={true}
@@ -39,13 +40,18 @@ const ProjectCard = ({ arr }) => {
           >
             {el.imgarr.map((el) => (
               <div id="webimg">
-                {console.log(el.img)}
+              
                 <img style={{ borderRadius: "1rem" }} src={el.img} alt="" />
               </div>
             ))}
           </Carousel>
           <div>
-            <h1 id="title">{el.title} <span style={{color:"var(--color-bg)",fontSize:"18px"}}>[Clone]</span> </h1>
+            <h1 id="title">
+              {el.title}{" "}
+              <span style={{ color: "var(--color-bg)", fontSize: "18px" }}>
+                [Clone]
+              </span>{" "}
+            </h1>
             <div id="des">
               <h3>{el.des}</h3>
             </div>
@@ -56,31 +62,33 @@ const ProjectCard = ({ arr }) => {
                   Tech Stack{" ->"}
                 </span>{" "}
                 {el.techstack} */}
-               <div id="tsres">
-               {el.techstack.map((el)=><div>
-                <img width={50} src={el.src} alt=""/>
-                <p>{el.name}</p>
-               </div>)}
-               </div>
+                <div id="tsres">
+                  {el.techstack.map((el) => (
+                    <div>
+                      <img width={50} src={el.src} alt="" />
+                      <p>{el.name}</p>
+                    </div>
+                  ))}
+                </div>
               </h2>
             </div>
 
             <div id="deployed">
               <a target="blank" href={el.github}>
-                <button >
-                  <i class="fa-brands fa-github"></i> 
+                <button>
+                  <i class="fa-brands fa-github"></i>
                 </button>
               </a>
               <a target="blank" href={el.live}>
-                <button >
+                <button>
                   {""}
                   <i class="fa-solid fa-eye"></i>
-                  {"   "} 
+                  {"   "}
                 </button>
               </a>
-              <button >
+              <a target={"blank"} href={el.dplink}><button>
                 <i class="fa-solid fa-video"></i>
-              </button>
+              </button></a>
             </div>
           </div>
         </div>

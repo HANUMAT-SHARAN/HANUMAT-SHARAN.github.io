@@ -5,17 +5,15 @@ import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
 import my from "../Components/Images/hanumat_logo.png";
 import Aos from "aos";
+import { Link } from "react-router-dom";
 
 const Home = () => {
-
- 
   useEffect(() => {
     Aos.init({ duration: 1000 });
   }, []);
   return (
     <section id="home">
       <div
-     
         data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
@@ -37,12 +35,18 @@ const Home = () => {
           data-aos-delay="300"
         >
           {" "}
-          Hello<img width={40} src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif" alt="" /> {" "}My Name Is{" "}
+          Hello
+          <img
+            width={40}
+            src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif"
+            alt=""
+          />{" "}
+          My Name Is{" "}
         </h1>
         <h1
-           data-aos="fade-down-right"
-           data-aos-duration="2000"
-           data-aos-delay="300"
+          data-aos="fade-down-right"
+          data-aos-duration="2000"
+          data-aos-delay="300"
           id="name"
         >
           Hanumat Sharan
@@ -68,8 +72,11 @@ const Home = () => {
             cursorStyle="|"
           />
         </h1>
-      
-       <a target="blank" href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW">
+
+        <a
+          target="blank"
+          href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download"
+        >
           <button
             id="resume"
             style={{
@@ -82,22 +89,21 @@ const Home = () => {
             Resume
           </button>
         </a>
-        
-      
-        <div id="homesocial" >
-            <a  target="blank" href="https://github.com/HANUMAT-SHARAN">
-              {" "}
-              <i class="fa-brands fa-github"></i>
-            </a>
 
-            <a target="blank" href="https://www.linkedin.com/in/hanumat-sharan-168548258/">
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </div>
-        
-        
+        <div id="homesocial">
+          <a target="blank" href="https://github.com/HANUMAT-SHARAN">
+            {" "}
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/hanumat-sharan-168548258/"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
       </div>
-      
     </section>
   );
 };

@@ -33,7 +33,8 @@ const Projects = () => {
       title: "RentoMojo",
       techstack: [{src:html,name:"HTML"},{src:css,name:"CSS"},{src:js,name:"JavaScript"},{src:react,name:"React"},{src:chakra,name:"Chakra"}],
       live:`https://rent-do-maja-lo-hanumat-sharan.vercel.app/`,
-      github:`https://github.com/HANUMAT-SHARAN/filthy-range-8205`
+      github:`https://github.com/HANUMAT-SHARAN/filthy-range-8205`,
+      dplink:"https://drive.google.com/file/d/19cCXUXLKvV7XoXyeLg0Csdp_SZkWFAol/view?usp=share_link"
     },
   ];
   let grow=[
@@ -63,7 +64,8 @@ const Projects = () => {
       title: "ChargeBee",
       techstack: [{src:html,name:"HTML"},{src:css,name:"CSS"},{src:js,name:"JavaScript"}],
       live:`https://dazzling-buttercream-31808d.netlify.app/index.html`,
-      github:`https://github.com/HANUMAT-SHARAN/wicked-edge-6587`
+      github:`https://github.com/HANUMAT-SHARAN/wicked-edge-6587`,
+      dplink:"https://drive.google.com/file/d/1lrT3GlRD15HrN0vNScwCMV_DQGgpFjML/view",
     },
   ]
   let optimizely=[
@@ -89,9 +91,10 @@ const Projects = () => {
       techstack: [{src:html,name:"HTML"},{src:css,name:"CSS"},{src:js,name:"JavaScript"}],
       live:`https://effulgent-cobbler-698112.netlify.app/`,
       github:`https://github.com/HANUMAT-SHARAN/-main-insurance-1276`
+
     },
   ]
-  console.log(dataarr);
+
   return (
     <section id="projects">
       <div
