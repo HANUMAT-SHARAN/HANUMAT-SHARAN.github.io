@@ -184,7 +184,7 @@ const Projects = () => {
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-          data-aos-offset="100"
+          
           data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={dailyneeds} />
@@ -192,7 +192,7 @@ const Projects = () => {
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-          data-aos-offset="100"
+         
           data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={dataarr} />
@@ -200,7 +200,7 @@ const Projects = () => {
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-          data-aos-offset="100"
+        
           data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={grow} />
@@ -208,7 +208,7 @@ const Projects = () => {
         <div
           data-aos="zoom-in-down"
           data-aos-duration="2000"
-          data-aos-offset="100"
+          
           data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={optimizely} />
