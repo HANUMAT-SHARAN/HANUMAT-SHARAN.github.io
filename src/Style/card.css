@@ -31,6 +31,7 @@
 }
 
 #webimg > img {
+  
   margin-left: 4%;
   width: 90%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -84,7 +85,7 @@ color: #656566;
 #deployed button{
   padding:7px 15px 7px 15px;
 }
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 320px) and (max-width: 970px) {
   #card {
     margin: auto;
     margin-left: -10px;
