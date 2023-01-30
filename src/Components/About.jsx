@@ -25,12 +25,12 @@ const About = () => {
           <ul type="square">
             <li>
               Hello My Name is Hanumat Sharan & I enjoy creating things that
-              live on the Internet{" "}
+              live on the Internet.{" "}
             </li>
             <li>
               {" "}
               I'm a passionate Developer, with strong administrative and
-              communication skills, good attention to detail and the ability to
+              communication skills , 1200 + hours of hands on experience in coding, good attention to detail and the ability to
               write efficient code using MERN Stack.
             </li>
             <li>
