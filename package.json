@@ -26,6 +26,7 @@
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
   },
+  
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
