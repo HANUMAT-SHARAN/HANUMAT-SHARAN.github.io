@@ -28,13 +28,13 @@ const Home = () => {
          
         >
           {" "}
-          Hello
+          Hello  {" "}
           <img
-            width={40}
-            src="https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/waving-hand_1f44b.gif"
+            width={35}
+            src="https://em-content.zobj.net/thumbs/160/apple/325/waving-hand_1f44b.png"
             alt=""
           />{" "}
-          My Name Is{" "}
+           My Name is{" "}
         </h1>
         <h1
          
