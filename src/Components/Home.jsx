@@ -14,25 +14,18 @@ const Home = () => {
   return (
     <section id="home">
       <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-        data-aos-offset="100"
+       
         id="profile"
       >
         {/* image */}
         <img src={`https://i.postimg.cc/xT6GLF9d/hanumat-logo.png`} alt="" />
       </div>
       <div
-        data-aos="fade-down-right"
-        data-aos-duration="2000"
-        data-aos-delay="300"
+     
         id="hanumat"
       >
         <h1
-          data-aos="fade-down-right"
-          data-aos-duration="2000"
-          data-aos-delay="300"
+         
         >
           {" "}
           Hello
@@ -44,17 +37,13 @@ const Home = () => {
           My Name Is{" "}
         </h1>
         <h1
-          data-aos="fade-down-right"
-          data-aos-duration="2000"
-          data-aos-delay="300"
+         
           id="name"
         >
           Hanumat Sharan
         </h1>
         <h1
-          data-aos="fade-down-right"
-          data-aos-duration="2000"
-          data-aos-delay="300"
+          
           id="type"
         >
           <Typewriter

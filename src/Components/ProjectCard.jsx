@@ -20,9 +20,7 @@ const ProjectCard = ({ arr }) => {
     slidesToShow: 1,
     slidesToScroll: 1
   };
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+ 
 
   return (
     <>

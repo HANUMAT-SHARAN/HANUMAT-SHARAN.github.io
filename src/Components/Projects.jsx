@@ -184,9 +184,7 @@ const github=`https://i.postimg.cc/rySQRJdd/github.png`
     <section id="projects">
       <div
         id="tech"
-        data-aos="fade-down-right"
-        data-aos-duration="2000"
-        data-aos-delay="300"
+       
         margin={"auto"}
         justifyContent={"space-around"}
       >
@@ -194,43 +192,29 @@ const github=`https://i.postimg.cc/rySQRJdd/github.png`
       </div>
       <div id="procard">
         <div
-          data-aos="zoom-in-down"
-          data-aos-duration="2000"
           
-          data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={dailyneeds} />
         </div>
         <div
-          data-aos="zoom-in-down"
-          data-aos-duration="2000"
-         
-          data-aos-anchor-placement="top-center"
+          
         >
           <ProjectCard arr={dataarr} />
         </div>
         <div
-          data-aos="zoom-in-down"
-          data-aos-duration="2000"
-        
-          data-aos-anchor-placement="top-center"
+         
         >
           <ProjectCard arr={grow} />
         </div>
         <div
-          data-aos="zoom-in-down"
-          data-aos-duration="2000"
           
-          data-aos-anchor-placement="top-center"
         >
           <ProjectCard arr={optimizely} />
         </div>
       </div>
       <div
         id="gitname"
-        data-aos="fade-down-right"
-        data-aos-duration="2000"
-        data-aos-delay="300"
+       
         margin={"auto"}
         justifyContent={"space-around"}
       >
@@ -240,10 +224,7 @@ const github=`https://i.postimg.cc/rySQRJdd/github.png`
       </div>
       <div
         id="calendar"
-        data-aos="flip-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-        data-aos-offset="100"
+       
       >
         <GitHubCalendar
           fontSize={14}
@@ -257,9 +238,7 @@ const github=`https://i.postimg.cc/rySQRJdd/github.png`
       </div>
       <div
         id="gitname"
-        data-aos="fade-down-right"
-        data-aos-duration="2000"
-        data-aos-delay="300"
+        
         margin={"auto"}
         justifyContent={"space-around"}
       >
@@ -267,36 +246,24 @@ const github=`https://i.postimg.cc/rySQRJdd/github.png`
       </div>
       <div id="gitstats">
         <img
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+          
           alt="most used languages"
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=HANUMAT-SHARAN&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8&langs_count=20&hide=hack,swift,kotlin,objective-c"
         />
 
         <img
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+          
           alt="status github, commits, etc..."
           src="https://github-readme-streak-stats.herokuapp.com/?user=HANUMAT-SHARAN&count_private=true&show_icons=true&custom_title=Github&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=8"
         />
 
         <img
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+         
           alt="7oSkaaa's Github Stats"
           src="https://github-readme-stats.vercel.app/api?username=HANUMAT-SHARAN&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10"
         />
         <img
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+         
           alt="Hanumat Activity Graph"
           src="https://github-readme-activity-graph.cyclic.app/graph?username=HANUMAT-SHARAN&theme=react-dark&hide_border=false"
         />

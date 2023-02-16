@@ -4,26 +4,21 @@ import CallIcon from '@mui/icons-material/Call';
 import EmailIcon from '@mui/icons-material/Email';
 import { useForm, ValidationError } from "@formspree/react";
 import { Button, Input } from "@mui/material";
-import Aos from "aos";
+
 
 import "../Style/contact.css";
 function ContactForm() {
   const [show, setShow] = React.useState(false);
   const [state, handleSubmit] = useForm("xyyayvwe");
 
-  useEffect(() => {
-    Aos.init({ duration: 1000 });
-  }, []);
+ 
   if (state.succeeded) {
     return (
       <>
         {" "}
         <div
           id="formsub"
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+         
           style={{ textAlign: "center" }}
         >
           <img
@@ -43,27 +38,19 @@ function ContactForm() {
     <section id="contact">
       <div
         id="tech"
-        data-aos="fade-down-right"
-        data-aos-duration="2000"
-        data-aos-delay="300"
+      
         margin={"auto"}
         justifyContent={"space-around"}
       >
         <h1 style={{ color: "var(--color-font)" }}>Contact Me </h1>
       </div>
       <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-        data-aos-offset="100"
+       
         id="contactform"
       >
         {/*   <i class="fa-sharp fa-solid fa-location-pin"></i>{" "}    <i class="fa-solid fa-envelope"></i>*/}
         <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+         
           id="contactlinkdiv"
         >
           <div>
@@ -132,10 +119,7 @@ function ContactForm() {
         </div>
 
         <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          data-aos-offset="100"
+         
         >
           <form onSubmit={handleSubmit}>
             <h4>Your Name </h4>
