@@ -2,10 +2,7 @@ import React, { useState, useEffect } from "react";
 import Carousel from "nuka-carousel/lib/carousel";
 import "../Style/card.css";
 import Aos from "aos";
-import html from "../Components/Images/Html.png";
-import css from "../Components/Images/Css.png";
-import react from "../Components/Images/react.png";
-import js from "../Components/Images/js.png";
+
 const ProjectCard = ({ arr }) => {
   let defaultControlsConfig = {
     nextButtonText: "nextf",

@@ -1,7 +1,7 @@
 import "../Style/topNavbar.css";
 import { Flex } from "@chakra-ui/react";
 import React, { useState } from "react";
-import logo from "../Components/Images/logo.png";
+
 import NavDrawer from "./NavDrawer";
 
 
@@ -22,7 +22,7 @@ const TopNavbar = () => {
     <div>
       <div style={{height:"10vh"}} id="topnav">
         <a  href="https://hanumat-sharan.github.io/"><div  style={{ marginLeft: "40px", align: "center", padding: "4px" }}>
-          <img width={"50px"} src={logo} alt="" />
+          <img width={"50px"} src={`https://i.postimg.cc/rp09VCXw/logo.png`} alt="" />
         </div></a>
         <div id="navel">
           <div onClick={() => [setCurrent("#home"),window.location.href="#home"]}>
