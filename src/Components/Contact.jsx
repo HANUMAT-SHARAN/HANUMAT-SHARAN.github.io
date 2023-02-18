@@ -62,7 +62,7 @@ function ContactForm() {
               <h4>deotadayal27@gmail.com</h4>
             </div>
             <div>
-            <a target={"blank"} href="mailto:deotadayal27@gmail.com"><button id="btnform">
+            <a target={"blank"} href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=deotadayal27@gmail.com"><button id="btnform">
                
                Email Now !
              </button></a>
