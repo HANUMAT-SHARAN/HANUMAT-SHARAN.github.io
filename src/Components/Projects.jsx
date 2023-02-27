@@ -284,9 +284,9 @@ const Projects = () => {
       </div>
       <Flex
         id="skillsButton"
-       mt={-50}
+     
         m="auto"
-        w={600}
+        w={400}
         mb={"60px"}
         justifyContent={"space-evenly"}
       >
@@ -300,13 +300,13 @@ const Projects = () => {
           className={tech == "web" ? "active" : null}
           onClick={() => setTech("web")}
         >
-          WEB APPLICATION'S
+          WEB 
         </button>
         <button
           className={tech == "android" ? "active" : null}
           onClick={() => setTech("android")}
         >
-          ANDROID APPLICATION{" "}
+          ANDROID {" "}
         </button>
        
       </Flex>
