@@ -36,10 +36,10 @@ const Skills = () => {
   const vs = `https://i.postimg.cc/CKqjThkZ/vscode.png`;
   // const npm=`https://i.postimg.cc/1tDc6mzx/npm-node-package-manager.png`
   const dsa = `https://i.postimg.cc/15BBJ3rs/Dsa.png`;
-
+const postman=`https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png`
   const [tech, setTech] = React.useState("all");
-
-
+const thunder=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIDzWtmwdZjtI-bZdaa6yiCa61joruKiuoriweCzkTUA&s`
+  const kitten=`https://akveo.github.io/react-native-ui-kitten/docs/assets/playground-build/static/media/icon.a78e4b51.png`
 
   const skillsarr = [
     { img: html, name: "HTML" },
@@ -49,6 +49,7 @@ const Skills = () => {
     { img: redux, name: "Redux" },
     { img: mongo, name: "Mongo Db" },
     { img: node, name: "Node JS" },
+    { img: react, name: "React Native" },
     { img: next, name: "Next JS" },
     { img: express, name: "Express JS" },
     { img: typescript, name: "Type Script" },
@@ -63,11 +64,13 @@ const Skills = () => {
     { img: react, name: "React" },
     { img: redux, name: "Redux" },
     { img: next, name: "Next JS" },
+    { img: react, name: "React Native" },
     { img: typescript, name: "Type Script" },
     { img: npm, name: "Npm" },
     { img: dsa, name: "DSA" },
     { img: cypress, name: "Cypress" },
   ];
+  const canva=`https://freelogopng.com/images/all_img/1656734305canva-app-icon.png`
   const backend = [
     { img: mongo, name: "Mongo Db" },
     { img: node, name: "Node JS" },
@@ -81,7 +84,13 @@ const Skills = () => {
 
     { img: chakra, name: "Chakra UI" },
     { img: git, name: "Git" },
+    { img: kitten, name: "Kitten UI" },
+    { img: postman, name: "Postman" },
+   
+    { img: canva, name: "Canva" }, { img: thunder, name: "Thunder Client" },
   ];
+  
+
 
   return (
     <section id="skills">

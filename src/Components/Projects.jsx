@@ -2,7 +2,10 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ProjectCard from "./ProjectCard";
 import "../Style/projects.css";
-
+import {Flex} from "@chakra-ui/react"
+import mongo from "../Components/Images/mongodb-seeklogo.com.svg";
+import npm from "../Components/Images/npm.876.svg";
+import node from "../Components/Images/nodejs.png";
 const Projects = () => {
   const html = `https://i.postimg.cc/fRbKFQ8X/Html.png`;
 
@@ -21,6 +24,9 @@ const Projects = () => {
   const vs = `https://i.postimg.cc/CKqjThkZ/vscode.png`;
   // const npm=`https://i.postimg.cc/1tDc6mzx/npm-node-package-manager.png`
   const dsa = `https://i.postimg.cc/15BBJ3rs/Dsa.png`;
+  const kitten=`https://akveo.github.io/react-native-ui-kitten/docs/assets/playground-build/static/media/icon.a78e4b51.png`
+
+  const [tech,setTech]=React.useState("all")
   let dataarr = [
     {
       imgarr: [
@@ -179,13 +185,142 @@ const Projects = () => {
         "https://drive.google.com/file/d/1fa9EIXXKuzb5tZTYs913GJgAksVvJJxB/view",
     },
   ];
-
+  let spritsVilla = [
+    {
+      imgarr: [
+        {
+          img: "https://i.postimg.cc/DwQGG2Yq/Screenshot-from-2023-02-27-12-23-15.png",
+        },
+        {
+          img: "https://i.postimg.cc/kgP8DVwJ/Screenshot-from-2023-02-27-12-23-42.png",
+        },
+        {
+          img: "https://i.postimg.cc/MHhB7XSY/Screenshot-from-2023-02-27-12-24-47.pngg",
+        },
+        {
+          img: "https://i.postimg.cc/7HwVmR3H/Screenshot-from-2023-02-27-12-24-36.png",
+        },
+        {
+          img: "https://i.postimg.cc/qqtn6y9R/Screenshot-from-2023-02-27-12-22-57.png",
+        },
+        {
+          img:"https://i.postimg.cc/SK6rfnmd/Screenshot-from-2023-02-27-13-04-15.png"
+        },
+        {
+          img:"https://i.postimg.cc/DZ7cj7ZT/Screenshot-from-2023-02-27-13-04-47.png"
+        },{
+          img:"https://i.postimg.cc/5tnFPsJy/Screenshot-from-2023-02-27-12-26-02.png"
+        }
+      ],
+      des: ` Spirits Villa offer you the convenience of shopping for everything that you need for your home - household cleaning items & personal care products from a single virtual store.`,
+      title: "Spirits Villa",
+      techstack: [
+        { src: react, name: "React" },
+        { src: chakra, name: "Chakra" },
+        { src: redux, name: "Redux" },
+        { src: express, name: "Express" },
+        { src: mongo, name: "MongoDb" },
+        { src: node, name: "Node JS" },
+      ],
+      live: `https://spirits-villa-git-main-hanumat-sharan.vercel.app/`,
+      github: `https://github.com/HANUMAT-SHARAN/Spirits_Villa`,
+      dplink:
+        "https://drive.google.com/file/d/19cCXUXLKvV7XoXyeLg0Csdp_SZkWFAol/view?usp=share_link",
+    },
+  ];
+  let kirayPe = [
+    {
+      imgarr: [
+        {
+          img: "https://i.postimg.cc/jjtGY5Zp/Untitled-design-1.jpg",
+        },
+        {
+          img: "https://i.postimg.cc/RhyjkLDd/Untitled-design.jpg",
+        },
+        {
+          img: "https://i.postimg.cc/6qkmj581/Untitled-design-9.jpg",
+        },
+        {
+          img: "https://i.postimg.cc/jSVpvvNd/Untitled-design-5.jpg",
+        },
+        {
+          img: "https://i.postimg.cc/HLzFYgNV/Untitled-design-6.jpg",
+        },
+        {
+          img:"https://i.postimg.cc/XJDh5g4W/Untitled-design-7.jpg"
+        },
+        {
+          img:"https://i.postimg.cc/x8JZ3b1z/Untitled-design-8.jpg"
+        },
+        {
+          img:"https://i.postimg.cc/Vkj3hMB9/Untitled-design-2.jpg"
+        },{
+          img:"https://i.postimg.cc/15Nxpb8j/Untitled-design-3.jpg"
+        },{
+          img:"https://i.postimg.cc/W3hB4ygj/Untitled-design-1.jpg"
+        }
+      ],
+      des: `
+      Kiraye Pe is a Clone of the RentoMojo Android App Which is used for Taking products home on rented basis to use them according the required Time Duration By Taking Some Rent From the Customer.`,
+      title: "Kiraye Pe",
+      techstack: [
+        { src: react, name: "React Native" },
+        { src: kitten, name: "Kitten UI " },
+        { src: redux, name: "Redux" },
+        { src: js, name: "Java Script" },
+        { src: css, name: "CSS" },
+        
+      ],
+      live: `https://github.com/HANUMAT-SHARAN/Kiraye-Pe`,
+      github: `https://github.com/HANUMAT-SHARAN/Kiraye-Pe`,
+      dplink:
+        "https://drive.google.com/file/d/19cCXUXLKvV7XoXyeLg0Csdp_SZkWFAol/view?usp=share_link",
+    },
+  ];
   return (
     <section id="projects">
       <div id="tech" margin={"auto"} justifyContent={"space-around"}>
         <h1 style={{ color: "var(--color-font)" }}>Projects </h1>
       </div>
+      <Flex
+        id="skillsButton"
+       mt={-50}
+        m="auto"
+        w={600}
+        mb={"60px"}
+        justifyContent={"space-evenly"}
+      >
+         <button
+          className={tech == "all" ? "active" : null}
+          onClick={() => setTech("all")}
+        >
+          ALL
+        </button>
+        <button
+          className={tech == "web" ? "active" : null}
+          onClick={() => setTech("web")}
+        >
+          WEB APPLICATION'S
+        </button>
+        <button
+          className={tech == "android" ? "active" : null}
+          onClick={() => setTech("android")}
+        >
+          ANDROID APPLICATION{" "}
+        </button>
+       
+      </Flex>
       <div id="procard">
+     {tech==`android`? <div>
+          <ProjectCard arr={kirayPe} />
+        </div>:null}
+      {tech=="all"?<>
+        <div>
+          <ProjectCard arr={spritsVilla} />
+        </div>
+        <div>
+          <ProjectCard arr={kirayPe} />
+        </div>
         <div>
           <ProjectCard arr={dailyneeds} />
         </div>
@@ -198,6 +333,24 @@ const Projects = () => {
         <div>
           <ProjectCard arr={optimizely} />
         </div>
+       </>:null}
+       {tech=="web"?<>
+        <div>
+          <ProjectCard arr={spritsVilla} />
+        </div>
+        <div>
+          <ProjectCard arr={dailyneeds} />
+        </div>
+        <div>
+          <ProjectCard arr={dataarr} />
+        </div>
+        <div>
+          <ProjectCard arr={grow} />
+        </div>
+        <div>
+          <ProjectCard arr={optimizely} />
+        </div>
+       </>:null}
       </div>
       <div id="gitname" margin={"auto"} justifyContent={"space-around"}>
         <h2 style={{ color: "var(--color-font)" }}>
