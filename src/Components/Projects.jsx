@@ -261,7 +261,7 @@ const Projects = () => {
         }
       ],
       des: `
-      Kiraye Pe is a Clone of the RentoMojo Android App Which is used for Taking products home on rented basis to use them according the required Time Duration By Taking Some Rent From the Customer.`,
+       Kiraye Pe is rental platform which is Clone of RentoMojo android App where a person can use the products according to there needs by paying rent for the products on monthly Subscription based model`,
       title: "Kiraye Pe",
       techstack: [
         { src: react, name: "React Native" },
