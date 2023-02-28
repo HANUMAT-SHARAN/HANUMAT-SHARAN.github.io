@@ -225,7 +225,7 @@ const Projects = () => {
       live: `https://spirits-villa-git-main-hanumat-sharan.vercel.app/`,
       github: `https://github.com/HANUMAT-SHARAN/Spirits_Villa`,
       dplink:
-        "https://drive.google.com/file/d/19cCXUXLKvV7XoXyeLg0Csdp_SZkWFAol/view?usp=share_link",
+        "https://drive.google.com/file/d/1ZxLPLoWJSycKiZG8YNNpk2NBx-a2IYvE/view?usp=sharing",
     },
   ];
   let kirayPe = [
@@ -315,15 +315,17 @@ const Projects = () => {
           <ProjectCard arr={kirayPe} />
         </div>:null}
       {tech=="all"?<>
-        <div>
+      <div>
           <ProjectCard arr={spritsVilla} />
         </div>
+     
         <div>
           <ProjectCard arr={kirayPe} />
         </div>
         <div>
           <ProjectCard arr={dailyneeds} />
         </div>
+       
         <div>
           <ProjectCard arr={dataarr} />
         </div>
@@ -335,12 +337,13 @@ const Projects = () => {
         </div>
        </>:null}
        {tech=="web"?<>
+       <div>
+          <ProjectCard arr={dailyneeds} />
+        </div>
         <div>
           <ProjectCard arr={spritsVilla} />
         </div>
-        <div>
-          <ProjectCard arr={dailyneeds} />
-        </div>
+        
         <div>
           <ProjectCard arr={dataarr} />
         </div>

@@ -1,12 +1,15 @@
 import React, { useEffect } from "react";
 import "../Style/home.css";
+import resumeFile from "../Resume/fw21_1203-Hanumat-Sharan-Resume.pdf"
 
 import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
 
 import Aos from "aos";
 import { Link } from "react-router-dom";
-
+const handleResumeShow=()=>{
+  window.open(`https://drive.google.com/file/d/1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW/view?usp=sharing`)
+}
 const Home = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -62,9 +65,9 @@ const Home = () => {
           />
         </h1>
 
-        <a
-          target="blank"
-          href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download"
+       <span onClick={handleResumeShow}> 
+       <a  href={resumeFile} download
+         
         >
           <button
             id="resume"
@@ -78,6 +81,7 @@ const Home = () => {
             Resume
           </button>
         </a>
+        </span>
 
         <div id="homesocial">
           <a target="blank" href="https://github.com/HANUMAT-SHARAN">

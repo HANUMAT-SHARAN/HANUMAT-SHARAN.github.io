@@ -2,8 +2,11 @@ import React from "react";
 import { Image, SimpleGrid, Flex, Box } from "@chakra-ui/react";
 import "../Components/nav.css";
 import NavDrawer from "./NavDrawer";
-
+import resumeFile from "../Resume/fw21_1203-Hanumat-Sharan-Resume.pdf"
 const Navbar = () => {
+  const handleResumeShow=()=>{
+    window.open(`https://drive.google.com/file/d/1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW/view?usp=sharing`)
+  }
   const [activenav, setActiveNav] = React.useState("#home");
 
   return (
@@ -67,18 +70,20 @@ const Navbar = () => {
           src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_Message-64.png"
         />
       </a>
-      <a
-        target="blank"
-        onClick={() => setActiveNav("#resume")}
-        className={activenav == "#resume" ? "active" : null}
-        href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download"
-      >
-        {" "}
-        <Image
-          boxSize={20}
-          src="https://cdn0.iconfinder.com/data/icons/business-3-black-fill/64/Business_3-_Black_fill-30-64.png"
-        />
-      </a>
+     <span onClick={handleResumeShow}>
+     <a
+      
+      onClick={() => setActiveNav("#resume")}
+      className={activenav == "#resume" ? "active" : null}
+      href={resumeFile} download
+    >
+      {" "}
+      <Image
+        boxSize={20}
+        src="https://cdn0.iconfinder.com/data/icons/business-3-black-fill/64/Business_3-_Black_fill-30-64.png"
+      />
+    </a>
+     </span>
     </nav>
   );
 };

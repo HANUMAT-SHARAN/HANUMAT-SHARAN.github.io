@@ -1,11 +1,14 @@
 import "../Style/topNavbar.css";
 import { Flex } from "@chakra-ui/react";
 import React, { useState } from "react";
-
+import resumeFile from "../Resume/fw21_1203-Hanumat-Sharan-Resume.pdf"
 import NavDrawer from "./NavDrawer";
 
 
 const TopNavbar = () => {
+  const handleResumeShow=()=>{
+  window.open(`https://drive.google.com/file/d/1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW/view?usp=sharing`)
+}
   const [current, setCurrent] = useState("#home");
   // const [fix,setFix]=useState(false)
   
@@ -62,11 +65,12 @@ const TopNavbar = () => {
             </a>{" "}
           </div>
           <div onClick={() => setCurrent("#resume")}>
-            <a  target="blank" href="https://drive.google.com/uc?id=1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW&export=download">
+            <span onClick={handleResumeShow}>
+            <a  href={resumeFile} download>
               <h4 id="resumenav" className={current === "#resume" ? "activemain" : null}>
                 Resume
               </h4>                                                                       
-            </a>{" "}
+            </a></span>{" "}
           </div>
          
         </div>
