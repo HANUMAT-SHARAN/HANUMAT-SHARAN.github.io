@@ -274,7 +274,7 @@ const Projects = () => {
       live: `https://github.com/HANUMAT-SHARAN/Kiraye-Pe`,
       github: `https://github.com/HANUMAT-SHARAN/Kiraye-Pe`,
       dplink:
-        "https://drive.google.com/file/d/19cCXUXLKvV7XoXyeLg0Csdp_SZkWFAol/view?usp=share_link",
+        "https://drive.google.com/file/d/1wU6CCibnVcyeoeAosnId2tIKE28p9nFA/view?usp=share_link",
     },
   ];
   return (
