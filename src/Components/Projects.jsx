@@ -179,7 +179,7 @@ const Projects = () => {
         { src: redux, name: "Redux" },
         { src: css, name: "CSS" },
       ],
-      live: `https://daily-needs-hanumat-sharan.vercel.app/`,
+      live: `https://daily-needs-96-git-master-hanumat-sharan.vercel.app/`,
       github: `https://github.com/HANUMAT-SHARAN/bright-noise-2667`,
       dplink:
         "https://drive.google.com/file/d/1fa9EIXXKuzb5tZTYs913GJgAksVvJJxB/view",
@@ -316,15 +316,16 @@ const Projects = () => {
         </div>:null}
       {tech=="all"?<>
       <div>
+          <ProjectCard arr={dailyneeds} />
+        </div>
+      <div>
           <ProjectCard arr={spritsVilla} />
         </div>
      
         <div>
           <ProjectCard arr={kirayPe} />
         </div>
-        <div>
-          <ProjectCard arr={dailyneeds} />
-        </div>
+        
        
         <div>
           <ProjectCard arr={dataarr} />
