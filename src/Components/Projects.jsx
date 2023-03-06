@@ -57,7 +57,7 @@ const Projects = () => {
         { src: react, name: "React" },
         { src: chakra, name: "Chakra" },
       ],
-      live: `https://rent-do-maja-lo-hanumat-sharan.vercel.app/`,
+      live: `https://rent-do-maja-lo-3knv-git-master-hanumat-sharan.vercel.app/`,
       github: `https://github.com/HANUMAT-SHARAN/filthy-range-8205`,
       dplink:
         "https://drive.google.com/file/d/19cCXUXLKvV7XoXyeLg0Csdp_SZkWFAol/view?usp=share_link",
