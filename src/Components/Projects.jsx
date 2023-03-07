@@ -154,7 +154,7 @@ const Projects = () => {
           img: "https://i.postimg.cc/NjXPzH0f/Screenshot-from-2023-01-30-20-54-33.png",
         },
         {
-          img: "https://i.postimg.cc/HshfKm43/Screenshot-from-2023-01-30-20-52-23.png",
+          img: "https://i.postimg.cc/wxm88Btp/Screenshot-from-2023-03-07-14-04-51.png",
         },
         {
           img: "https://i.postimg.cc/gj5NMzFZ/Screenshot-from-2023-01-30-20-56-16.png",
@@ -189,7 +189,7 @@ const Projects = () => {
     {
       imgarr: [
         {
-          img: "https://i.postimg.cc/DwQGG2Yq/Screenshot-from-2023-02-27-12-23-15.png",
+          img: "https://i.postimg.cc/LXVPnS56/Screenshot-from-2023-03-07-14-09-40.png",
         },
         {
           img: "https://i.postimg.cc/kgP8DVwJ/Screenshot-from-2023-02-27-12-23-42.png",
@@ -198,7 +198,7 @@ const Projects = () => {
           img: "https://i.postimg.cc/MHhB7XSY/Screenshot-from-2023-02-27-12-24-47.pngg",
         },
         {
-          img: "https://i.postimg.cc/7HwVmR3H/Screenshot-from-2023-02-27-12-24-36.png",
+          img: "https://i.postimg.cc/qv0dGdvd/Screenshot-from-2023-03-07-14-09-12.png",
         },
         {
           img: "https://i.postimg.cc/qqtn6y9R/Screenshot-from-2023-02-27-12-22-57.png",
