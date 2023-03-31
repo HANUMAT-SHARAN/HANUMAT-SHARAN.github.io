@@ -2,31 +2,25 @@ import React from "react";
 import GitHubCalendar from "react-github-calendar";
 import ProjectCard from "./ProjectCard";
 import "../Style/projects.css";
-import {Flex} from "@chakra-ui/react"
+import { Flex } from "@chakra-ui/react";
 import mongo from "../Components/Images/mongodb-seeklogo.com.svg";
 import npm from "../Components/Images/npm.876.svg";
 import node from "../Components/Images/nodejs.png";
+
+import {
+  html,
+  css,
+  js,
+  react,
+  redux,
+  express,
+  typescript,
+  chakra,
+  kitten,
+} from "../Components/Images/AllLogos";
+
 const Projects = () => {
-  const html = `https://i.postimg.cc/fRbKFQ8X/Html.png`;
-
-  const css = `https://i.postimg.cc/VNpDnZBt/Css.png`;
-  const react = `https://i.postimg.cc/mkwYXmM8/react.png`;
-  const redux = `https://seeklogo.com/images/R/redux-logo-9CA6836C12-seeklogo.com.png`;
-  // const node=`https://seeklogo.com/images/N/node-node-js-logo-81A4CC16D2-seeklogo.com.png`
-  const js = `https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_960_720.png`;
-  const git = `https://i.postimg.cc/hPcMLdx2/git.png`;
-  const github = `https://i.postimg.cc/rySQRJdd/github.png`;
-  const next = `https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png`;
-  const typescript = `https://i.postimg.cc/4Nfb7TkM/typescript.png`;
-  const cypress = `https://i.postimg.cc/sx9mFjFP/cypress1.webp`;
-  const chakra = `https://i.postimg.cc/BnhhQnjM/chakra.png`;
-  const express = `https://i.postimg.cc/G2DzQPq5/express.png`;
-  const vs = `https://i.postimg.cc/CKqjThkZ/vscode.png`;
-  // const npm=`https://i.postimg.cc/1tDc6mzx/npm-node-package-manager.png`
-  const dsa = `https://i.postimg.cc/15BBJ3rs/Dsa.png`;
-  const kitten=`https://akveo.github.io/react-native-ui-kitten/docs/assets/playground-build/static/media/icon.a78e4b51.png`
-
-  const [tech,setTech]=React.useState("all")
+  const [tech, setTech] = React.useState("all");
   let dataarr = [
     {
       imgarr: [
@@ -204,13 +198,14 @@ const Projects = () => {
           img: "https://i.postimg.cc/qqtn6y9R/Screenshot-from-2023-02-27-12-22-57.png",
         },
         {
-          img:"https://i.postimg.cc/SK6rfnmd/Screenshot-from-2023-02-27-13-04-15.png"
+          img: "https://i.postimg.cc/SK6rfnmd/Screenshot-from-2023-02-27-13-04-15.png",
         },
         {
-          img:"https://i.postimg.cc/DZ7cj7ZT/Screenshot-from-2023-02-27-13-04-47.png"
-        },{
-          img:"https://i.postimg.cc/5tnFPsJy/Screenshot-from-2023-02-27-12-26-02.png"
-        }
+          img: "https://i.postimg.cc/DZ7cj7ZT/Screenshot-from-2023-02-27-13-04-47.png",
+        },
+        {
+          img: "https://i.postimg.cc/5tnFPsJy/Screenshot-from-2023-02-27-12-26-02.png",
+        },
       ],
       des: ` Spirits Villa offer you the convenience of shopping for everything that you need for your home - household cleaning items & personal care products from a single virtual store.`,
       title: "Spirits Villa",
@@ -247,18 +242,20 @@ const Projects = () => {
           img: "https://i.postimg.cc/HLzFYgNV/Untitled-design-6.jpg",
         },
         {
-          img:"https://i.postimg.cc/XJDh5g4W/Untitled-design-7.jpg"
+          img: "https://i.postimg.cc/XJDh5g4W/Untitled-design-7.jpg",
         },
         {
-          img:"https://i.postimg.cc/x8JZ3b1z/Untitled-design-8.jpg"
+          img: "https://i.postimg.cc/x8JZ3b1z/Untitled-design-8.jpg",
         },
         {
-          img:"https://i.postimg.cc/Vkj3hMB9/Untitled-design-2.jpg"
-        },{
-          img:"https://i.postimg.cc/15Nxpb8j/Untitled-design-3.jpg"
-        },{
-          img:"https://i.postimg.cc/W3hB4ygj/Untitled-design-1.jpg"
-        }
+          img: "https://i.postimg.cc/Vkj3hMB9/Untitled-design-2.jpg",
+        },
+        {
+          img: "https://i.postimg.cc/15Nxpb8j/Untitled-design-3.jpg",
+        },
+        {
+          img: "https://i.postimg.cc/W3hB4ygj/Untitled-design-1.jpg",
+        },
       ],
       des: `
        Kiraye Pe is rental platform which is Clone of RentoMojo android App where a person can use the products according to there needs by paying rent for the products on monthly Subscription based model`,
@@ -269,7 +266,6 @@ const Projects = () => {
         { src: redux, name: "Redux" },
         { src: js, name: "Java Script" },
         { src: css, name: "CSS" },
-        
       ],
       live: `https://github.com/HANUMAT-SHARAN/Kiraye-Pe`,
       github: `https://github.com/HANUMAT-SHARAN/Kiraye-Pe`,
@@ -284,13 +280,12 @@ const Projects = () => {
       </div>
       <Flex
         id="skillsButton"
-     
         m="auto"
         w={400}
         mb={"60px"}
         justifyContent={"space-evenly"}
       >
-         <button
+        <button
           className={tech == "all" ? "active" : null}
           onClick={() => setTech("all")}
         >
@@ -300,61 +295,65 @@ const Projects = () => {
           className={tech == "web" ? "active" : null}
           onClick={() => setTech("web")}
         >
-          WEB 
+          WEB
         </button>
         <button
           className={tech == "android" ? "active" : null}
           onClick={() => setTech("android")}
         >
-          ANDROID {" "}
+          ANDROID{" "}
         </button>
-       
       </Flex>
       <div id="procard">
-     {tech==`android`? <div>
-          <ProjectCard arr={kirayPe} />
-        </div>:null}
-      {tech=="all"?<>
-      <div>
-          <ProjectCard arr={dailyneeds} />
-        </div>
-      <div>
-          <ProjectCard arr={spritsVilla} />
-        </div>
-     
-        <div>
-          <ProjectCard arr={kirayPe} />
-        </div>
-        
-       
-        <div>
-          <ProjectCard arr={dataarr} />
-        </div>
-        <div>
-          <ProjectCard arr={grow} />
-        </div>
-        <div>
-          <ProjectCard arr={optimizely} />
-        </div>
-       </>:null}
-       {tech=="web"?<>
-       <div>
-          <ProjectCard arr={dailyneeds} />
-        </div>
-        <div>
-          <ProjectCard arr={spritsVilla} />
-        </div>
-        
-        <div>
-          <ProjectCard arr={dataarr} />
-        </div>
-        <div>
-          <ProjectCard arr={grow} />
-        </div>
-        <div>
-          <ProjectCard arr={optimizely} />
-        </div>
-       </>:null}
+        {tech == `android` ? (
+          <div>
+            <ProjectCard arr={kirayPe} />
+          </div>
+        ) : null}
+        {tech == "all" ? (
+          <>
+            <div>
+              <ProjectCard arr={dailyneeds} />
+            </div>
+            <div>
+              <ProjectCard arr={spritsVilla} />
+            </div>
+
+            <div>
+              <ProjectCard arr={kirayPe} />
+            </div>
+
+            <div>
+              <ProjectCard arr={dataarr} />
+            </div>
+            <div>
+              <ProjectCard arr={grow} />
+            </div>
+            <div>
+              <ProjectCard arr={optimizely} />
+            </div>
+          </>
+        ) : null}
+        {tech == "web" ? (
+          <>
+            <div>
+              <ProjectCard arr={dailyneeds} />
+            </div>
+            <div>
+              <ProjectCard arr={spritsVilla} />
+            </div>
+
+            <div>
+              <ProjectCard arr={dataarr} />
+            </div>
+            <div>
+              <ProjectCard arr={grow} />
+            </div>
+            <div>
+              <ProjectCard arr={optimizely} />
+            </div>
+          </>
+        ) : null}
       </div>
       <div id="gitname" margin={"auto"} justifyContent={"space-around"}>
         <h2 style={{ color: "var(--color-font)" }}>

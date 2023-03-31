@@ -61,7 +61,7 @@ const ProjectCard = ({ arr }) => {
                   {el.techstack.map((el) => (
                     <div>
                       <img width={50} src={el.src} alt="" />
-                      <p>{el.name}</p>
+                  <p id="para">{el.name}</p>
                     </div>
                   ))}
                 </div>

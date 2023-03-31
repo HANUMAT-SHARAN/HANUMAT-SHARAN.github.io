@@ -22,6 +22,7 @@
 #carousel > button {
   background-color: red;
 }
+
 .con {
   border-radius: 3rem;
   display: none;
@@ -113,6 +114,7 @@ color: #656566;
     margin-left: 0%;
     width: 100%;
   }
+  
 
   #tsres {
     display: flex;
@@ -128,5 +130,10 @@ color: #656566;
   #tsres p {
     color: var(--color-heading);
     font-size: 12px;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 500px) {
+  #para{
+    display: none;
   }
 }
