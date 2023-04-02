@@ -1,5 +1,5 @@
 import React from "react";
-import { Typewriter } from "react-simple-typewriter";
+
 
 import Navbar from "../Components/Navbar";
 import Home from "../Components/Home";
@@ -12,7 +12,7 @@ import Social from "./Social";
 import Contact from "./Contact";
 const MainPage = () => {
   return (
-    <div>
+    <>
       <TopNavbar />
       <Navbar />
       <Home />
@@ -21,7 +21,7 @@ const MainPage = () => {
       <Projects />
       <Social />
       <Contact />
-    </div>
+    </>
   );
 };
 

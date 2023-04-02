@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Carousel from "nuka-carousel/lib/carousel";
 import "../Style/card.css";
-import Aos from "aos";
+
 
 const ProjectCard = ({ arr }) => {
   let defaultControlsConfig = {
@@ -13,13 +13,7 @@ const ProjectCard = ({ arr }) => {
     pagingDotsClassName: "con",
     speed: 20,
   };
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+
  
 
   return (

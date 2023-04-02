@@ -3,11 +3,11 @@ import "../Style/home.css";
 import resumeFile from "../Resume/fw21_1203-Hanumat-Sharan-Resume.pdf";
 
 import { Typewriter } from "react-simple-typewriter";
-import { Button } from "@mui/material";
+
 import hanumat_img from "../Components/Images/hanumat-logo.png";
 
 import Aos from "aos";
-import { Link } from "react-router-dom";
+
 const handleResumeShow = () => {
   window.open(
     `https://drive.google.com/file/d/1XQsL2a-Jw_dGKsCm4KvWWunVTALaojUW/view?usp=sharing`

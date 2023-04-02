@@ -1,5 +1,5 @@
 import "../Style/topNavbar.css";
-import { Flex } from "@chakra-ui/react";
+
 import React, { useState } from "react";
 import resumeFile from "../Resume/fw21_1203-Hanumat-Sharan-Resume.pdf"
 import NavDrawer from "./NavDrawer";

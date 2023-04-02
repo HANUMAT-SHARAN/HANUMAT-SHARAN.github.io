@@ -1,34 +1,22 @@
-import React, { useEffect } from "react";
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import CallIcon from '@mui/icons-material/Call';
-import EmailIcon from '@mui/icons-material/Email';
-import { useForm, ValidationError } from "@formspree/react";
-import { Button, Input } from "@mui/material";
+import React from "react";
 
+import { useForm, ValidationError } from "@formspree/react";
 
 import "../Style/contact.css";
 function ContactForm() {
-  const [show, setShow] = React.useState(false);
   const [state, handleSubmit] = useForm("xyyayvwe");
 
- 
   if (state.succeeded) {
     return (
       <>
         {" "}
-        <div
-          id="formsub"
-         
-          style={{ textAlign: "center" }}
-        >
+        <div id="formsub" style={{ textAlign: "center" }}>
           <img
             width={300}
             src="https://png.pngtree.com/png-vector/20230105/ourmid/pngtree-3d-green-check-mark-icon-png-image_6552255.png"
             alt=""
           />
-          <h1>
-            Your mail has been sent Succesfully !
-          </h1>
+          <h1>Your mail has been sent Succesfully !</h1>
         </div>
       </>
     );
@@ -36,45 +24,34 @@ function ContactForm() {
 
   return (
     <section id="contact">
-      <div
-        id="tech"
-      
-        margin={"auto"}
-        justifyContent={"space-around"}
-      >
+      <div id="tech" margin={"auto"} justifyContent={"space-around"}>
         <h1 style={{ color: "var(--color-font)" }}>Contact Me </h1>
       </div>
-      <div
-       
-        id="contactform"
-      >
+      <div id="contactform">
         {/*   <i class="fa-sharp fa-solid fa-location-pin"></i>{" "}    <i class="fa-solid fa-envelope"></i>*/}
-        <div
-         
-          id="contactlinkdiv"
-        >
+        <div id="contactlinkdiv">
           <div>
             <div>
               {" "}
-              <div style={{fontSize:"1.5rem",marginRight:"10px"}}>
-              <i  class="fa-solid fa-envelope"></i>
+              <div style={{ fontSize: "1.5rem", marginRight: "10px" }}>
+                <i class="fa-solid fa-envelope"></i>
               </div>
               <h4>deotadayal27@gmail.com</h4>
             </div>
             <div>
-            <a target={"blank"} href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=deotadayal27@gmail.com"><button id="btnform">
-               
-               Email Now !
-             </button></a>
-              
+              <a
+                target={"blank"}
+                href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&to=deotadayal27@gmail.com"
+              >
+                <button id="btnform">Email Now !</button>
+              </a>
             </div>
           </div>
           <div className="whatsapp">
             <div>
               {" "}
-              <div style={{fontSize:"1.5rem",marginRight:"10px"}}>
-             
-              <i class="fa-solid fa-phone"></i>
+              <div style={{ fontSize: "1.5rem", marginRight: "10px" }}>
+                <i class="fa-solid fa-phone"></i>
               </div>
               <h4> Phone : +91 8264121428</h4>
             </div>
@@ -86,8 +63,11 @@ function ContactForm() {
             </div>
           </div>
           <div className="call">
-            <div >
-           <div style={{fontSize:"2rem",marginRight:"20px"}} > <i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <div style={{ fontSize: "2rem", marginRight: "20px" }}>
+                {" "}
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
               <h4> Whatsapp</h4>
             </div>
             <div>
@@ -95,15 +75,11 @@ function ContactForm() {
                 <button id="btnform">Whatsapp Now !</button>
               </a>
             </div>
-            {/* <div >
-              {" "}
-             
-            </div>
-            <h4>Whatsapp</h4>
-            <h4>+91 8264121428</h4>
-           */}
           </div>
-          <div style={{display:"flex",justifyContent:"space-evenly"}} id="socialgit">
+          <div
+            style={{ display: "flex", justifyContent: "space-evenly" }}
+            id="socialgit"
+          >
             <a target="blank" href="https://github.com/HANUMAT-SHARAN">
               {" "}
               <i class="fa-brands fa-github"></i>
@@ -118,9 +94,7 @@ function ContactForm() {
           </div>
         </div>
 
-        <div
-         
-        >
+        <div>
           <form onSubmit={handleSubmit}>
             <h4>Your Name </h4>
             <input id="name" placeholder="Insert Your Name" name="Name" />
@@ -155,7 +129,7 @@ function ContactForm() {
             />
             <div id="formbu">
               <button
-                style={{ width: "55%",marginBottom:"20px" }}
+                style={{ width: "55%", marginBottom: "20px" }}
                 id="btnform"
                 type="submit"
                 disabled={state.submitting}

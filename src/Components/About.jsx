@@ -10,7 +10,7 @@ const About = () => {
        
       >
         <h1 style={{ color: "var(--color-font)" }}>About Me </h1>
-        {/* <h1 style={{ color: "var(--color-font)" }}> Skills </h1> */}
+   
       </div>
 
       <div id="aboutdiv">
