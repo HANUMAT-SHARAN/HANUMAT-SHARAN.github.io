@@ -13,5 +13,5 @@ export const express = `https://i.postimg.cc/G2DzQPq5/express.png`;
 export const vs = `https://i.postimg.cc/CKqjThkZ/vscode.png`;
 export const dsa = `https://i.postimg.cc/15BBJ3rs/Dsa.png`;
 export const postman = `https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png`;
-export const thunder = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIDzWtmwdZjtI-bZdaa6yiCa61joruKiuoriweCzkTUA&s`;
-export const kitten = `https://akveo.github.io/react-native-ui-kitten/docs/assets/playground-build/static/media/icon.a78e4b51.png`;
+export const thunder = `https://rangav.gallerycdn.vsassets.io/extensions/rangav/vscode-thunder-client/2.6.2/1681222207111/Microsoft.VisualStudio.Services.Icons.Default`;
+export const kitten = `https://uploads-ssl.webflow.com/5db1c0d5ca3871e8fd1a7b66/5e90b130e4d38b1843ee659d_Kitten.svg`;

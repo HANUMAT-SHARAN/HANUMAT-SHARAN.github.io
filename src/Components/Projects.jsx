@@ -44,7 +44,7 @@ const Projects = () => {
           ALL
         </button>
         <button
-          className={tech ==="web" ? "active" : null}
+          className={tech === "web" ? "active" : null}
           onClick={() => setTech("web")}
         >
           WEB
