@@ -3,6 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 import ProjectCard from "./ProjectCard";
 import "../Style/projects.css";
 import { Flex } from "@chakra-ui/react";
+
 import {
   kirayPe,
   dailyneeds,

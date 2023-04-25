@@ -1,6 +1,44 @@
 import mongo from "../Components/Images/mongodb-seeklogo.com.svg";
-
 import node from "../Components/Images/nodejs.png";
+import rm1 from "../RentoMojo/rm1.png";
+import rm2 from "../RentoMojo/rm2.png";
+import rm3 from "../RentoMojo/rm3.png";
+import rm4 from "../RentoMojo/rm4.png";
+import rm5 from "../RentoMojo/rm5.png";
+import ch1 from "../ChargeBee/ch1.png";
+import ch2 from "../ChargeBee/ch2.png";
+import ch3 from "../ChargeBee/ch3.png";
+import ch4 from "../ChargeBee/ch4.png";
+import ch5 from "../ChargeBee/ch5.png";
+import op1 from "../Optimizely/op1.png";
+import op2 from "../Optimizely/op1.png";
+import op3 from "../Optimizely/op1.png";
+import op4 from "../Optimizely/op1.png";
+import do1 from "../DailyObjects/do1.png";
+import do2 from "../DailyObjects/do2.png";
+import do3 from "../DailyObjects/do3.png";
+import do4 from "../DailyObjects/do4.png";
+import do5 from "../DailyObjects/do5.png";
+import do7 from "../DailyObjects/do7.png";
+import do8 from "../DailyObjects/do8.png";
+import do9 from "../DailyObjects/do9.png";
+import do6 from "../DailyObjects/do6.png";
+import kp1 from "../KirayePe/kp1.jpg";
+import kp2 from "../KirayePe/kp2.jpg";
+import kp3 from "../KirayePe/kp3.jpg";
+import kp4 from "../KirayePe/kp4.jpg";
+import kp5 from "../KirayePe/kp5.jpg";
+import kp6 from "../KirayePe/kp6.jpg";
+import kp7 from "../KirayePe/kp7.jpg";
+import kp8 from "../KirayePe/kp8.jpg";
+import sv1 from '../SpritsVilla/sv1.png'
+import sv2 from '../SpritsVilla/sv2.png'
+import sv3 from '../SpritsVilla/sv3.png'
+import sv4 from '../SpritsVilla/sv4.png'
+import sv5 from '../SpritsVilla/sv5.png'
+import sv6 from '../SpritsVilla/sv6.png'
+import sv7 from '../SpritsVilla/sv7.png'
+import sv8 from '../SpritsVilla/sv8.png'
 
 import {
   html,
@@ -18,19 +56,19 @@ export const dataarr = [
   {
     imgarr: [
       {
-        img: "https://i.postimg.cc/wj5CMv94/Screenshot-from-2023-01-10-01-42-55.png",
+        img: rm1,
       },
       {
-        img: "https://i.postimg.cc/c1C5kkD7/Screenshot-from-2023-01-12-02-10-04.png",
+        img: rm2,
       },
       {
-        img: "https://i.postimg.cc/CKv9d3P1/Screenshot-from-2023-01-12-02-10-36.png",
+        img: rm3,
       },
       {
-        img: "https://i.postimg.cc/QxbmXpnN/Screenshot-from-2023-01-12-02-12-41.png",
+        img: rm4,
       },
       {
-        img: "https://i.postimg.cc/BvWXkzcj/Screenshot-from-2023-01-12-02-11-10.png",
+        img: rm5,
       },
     ],
     des: `RentoMojo is rental platform where a person can use the products
@@ -54,22 +92,19 @@ export const grow = [
   {
     imgarr: [
       {
-        img: "https://i.postimg.cc/bNYqdstT/Screenshot-from-2023-01-12-02-50-09.png",
+        img: ch1,
       },
       {
-        img: "https://i.postimg.cc/P59H6yF3/Screenshot-from-2023-01-12-02-50-36.png",
+        img: ch2,
       },
       {
-        img: "https://i.postimg.cc/nhQgLJ02/Screenshot-from-2023-01-12-02-51-57.png",
+        img: ch3,
       },
       {
-        img: "https://i.postimg.cc/zBqcpR52/Screenshot-from-2023-01-12-02-53-13.png",
+        img: ch4,
       },
       {
-        img: "https://i.postimg.cc/kGLrjXTV/Screenshot-from-2023-01-12-03-00-47.png",
-      },
-      {
-        img: "https://i.postimg.cc/02zHtvRv/Screenshot-from-2023-01-12-02-53-22.png",
+        img: ch5,
       },
     ],
     des: `
@@ -90,16 +125,16 @@ export const optimizely = [
   {
     imgarr: [
       {
-        img: "https://i.postimg.cc/fyWzmLJY/Screenshot-from-2023-01-12-03-07-22.png",
+        img: op1,
       },
       {
-        img: "https://i.postimg.cc/J08ygMth/Screenshot-from-2023-01-12-03-07-00.png",
+        img: op2,
       },
       {
-        img: "https://i.postimg.cc/t4pKgfnV/Screenshot-from-2023-01-12-03-08-26.png",
+        img: op3,
       },
       {
-        img: "https://i.postimg.cc/JnDggCvS/Screenshot-from-2023-01-12-03-07-51.png",
+        img: op4,
       },
     ],
     des: `
@@ -118,42 +153,31 @@ export const dailyneeds = [
   {
     imgarr: [
       {
-        img: "https://i.postimg.cc/fb41zvP9/Screenshot-from-2023-01-30-20-50-48.png",
-      },
-
-      {
-        img: "https://i.postimg.cc/8zfqgYZG/Screenshot-from-2023-01-30-20-51-28.png",
-      },
-
-      {
-        img: "https://i.postimg.cc/vHBJ3T9c/Screenshot-from-2023-01-30-20-53-09.png",
+        img: do1,
       },
       {
-        img: "https://i.postimg.cc/5047yKS6/Screenshot-from-2023-01-30-20-53-29.png",
+        img: do2,
       },
       {
-        img: "https://i.postimg.cc/g0qtYbRC/Screenshot-from-2023-01-30-20-55-01.png",
+        img: do3,
       },
       {
-        img: "https://i.postimg.cc/9XN8XpRQ/Screenshot-from-2023-01-30-20-56-53.png",
+        img: do4,
       },
       {
-        img: "https://i.postimg.cc/NjXPzH0f/Screenshot-from-2023-01-30-20-54-33.png",
+        img: do5,
       },
       {
-        img: "https://i.postimg.cc/wxm88Btp/Screenshot-from-2023-03-07-14-04-51.png",
+        img: do6,
       },
       {
-        img: "https://i.postimg.cc/gj5NMzFZ/Screenshot-from-2023-01-30-20-56-16.png",
+        img: do7,
       },
       {
-        img: "https://i.postimg.cc/63fk1GYG/Screenshot-from-2023-01-30-20-50-23.png",
+        img: do8,
       },
       {
-        img: "https://i.postimg.cc/yxWLXJ5K/Screenshot-from-2023-01-30-20-54-14.png",
-      },
-      {
-        img: "https://i.postimg.cc/MG8r2pc0/Screenshot-from-2023-01-30-20-54-22.png",
+        img: do9,
       },
     ],
     des: `
@@ -176,28 +200,28 @@ export const spritsVilla = [
   {
     imgarr: [
       {
-        img: "https://i.postimg.cc/LXVPnS56/Screenshot-from-2023-03-07-14-09-40.png",
+        img:sv1,
       },
       {
-        img: "https://i.postimg.cc/kgP8DVwJ/Screenshot-from-2023-02-27-12-23-42.png",
+        img:sv2,
       },
       {
-        img: "https://i.postimg.cc/MHhB7XSY/Screenshot-from-2023-02-27-12-24-47.pngg",
+        img: sv3,
       },
       {
-        img: "https://i.postimg.cc/qv0dGdvd/Screenshot-from-2023-03-07-14-09-12.png",
+        img:sv4,
       },
       {
-        img: "https://i.postimg.cc/qqtn6y9R/Screenshot-from-2023-02-27-12-22-57.png",
+        img:sv5,
       },
       {
-        img: "https://i.postimg.cc/SK6rfnmd/Screenshot-from-2023-02-27-13-04-15.png",
+        img:sv6,
       },
       {
-        img: "https://i.postimg.cc/DZ7cj7ZT/Screenshot-from-2023-02-27-13-04-47.png",
+        img:sv7,
       },
       {
-        img: "https://i.postimg.cc/5tnFPsJy/Screenshot-from-2023-02-27-12-26-02.png",
+        img:sv8,
       },
     ],
     des: ` Spirits Villa offer you the convenience of shopping for everything that you need for your home - household cleaning items & personal care products from a single virtual store.`,
@@ -220,34 +244,28 @@ export const kirayPe = [
   {
     imgarr: [
       {
-        img: "https://i.postimg.cc/jjtGY5Zp/Untitled-design-1.jpg",
+        img: kp1,
       },
       {
-        img: "https://i.postimg.cc/RhyjkLDd/Untitled-design.jpg",
+        img: kp2,
       },
       {
-        img: "https://i.postimg.cc/6qkmj581/Untitled-design-9.jpg",
+        img: kp3,
       },
       {
-        img: "https://i.postimg.cc/jSVpvvNd/Untitled-design-5.jpg",
+        img: kp4,
       },
       {
-        img: "https://i.postimg.cc/HLzFYgNV/Untitled-design-6.jpg",
+        img: kp5,
       },
       {
-        img: "https://i.postimg.cc/XJDh5g4W/Untitled-design-7.jpg",
+        img: kp6,
       },
       {
-        img: "https://i.postimg.cc/x8JZ3b1z/Untitled-design-8.jpg",
+        img: kp7,
       },
       {
-        img: "https://i.postimg.cc/Vkj3hMB9/Untitled-design-2.jpg",
-      },
-      {
-        img: "https://i.postimg.cc/15Nxpb8j/Untitled-design-3.jpg",
-      },
-      {
-        img: "https://i.postimg.cc/W3hB4ygj/Untitled-design-1.jpg",
+        img: kp8,
       },
     ],
     des: `
