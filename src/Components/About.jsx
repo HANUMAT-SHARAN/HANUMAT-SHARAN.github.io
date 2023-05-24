@@ -2,19 +2,14 @@ import React from "react";
 
 import "../Style/about.css";
 const About = () => {
- 
   return (
     <section id="about">
-      <div
-        id="tech"
-       
-      >
+      <div id="tech">
         <h1 style={{ color: "var(--color-font)" }}>About Me </h1>
-   
       </div>
 
       <div id="aboutdiv">
-        <div   >
+        <div>
           <ul type="square">
             <li>
               Hello My Name is Hanumat Sharan & I enjoy creating things that
@@ -23,8 +18,9 @@ const About = () => {
             <li>
               {" "}
               I'm a passionate Developer, with strong administrative and
-              communication skills , 1200 + hours of hands on experience in coding, good attention to detail and the ability to
-              write efficient code using MERN Stack.
+              communication skills , 1200 + hours of hands on experience in
+              coding, good attention to detail and the ability to write
+              efficient code using MERN Stack.
             </li>
             <li>
               My interest in web development started back last year when I was
@@ -43,7 +39,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div  >
+        <div>
           <img
             src="https://img.freepik.com/premium-vector/man-working-home_28923-46.jpg?w=740"
             alt=""

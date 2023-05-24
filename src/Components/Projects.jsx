@@ -121,10 +121,6 @@ const Projects = () => {
           alt="7oSkaaa's Github Stats"
           src="https://github-readme-stats.vercel.app/api?username=HANUMAT-SHARAN&show_icons=true&count_private=true&theme=algolia&bg_color=0,000000,130F40&layout=compact&border_radius=10"
         />
-        <img
-          alt="Hanumat Activity Graph"
-          src="https://github-readme-activity-graph.cyclic.app/graph?username=HANUMAT-SHARAN&theme=react-dark&hide_border=false"
-        />
       </div>
     </section>
   );
